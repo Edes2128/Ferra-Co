@@ -1,0 +1,1788 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fbc90b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d12026;
+}
+/*Utlitites */
+.fs-10 {
+  font-size: 10px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-26 {
+  font-size: 26px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+.fs-33 {
+  font-size: 33px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.fs-50 {
+  font-size: 50px;
+}
+.fs-60 {
+  font-size: 60px;
+}
+.fs-100 {
+  font-size: 100px;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-900 {
+  font-weight: 900;
+}
+.container {
+  max-width: 1514px;
+  margin: 0 auto;
+  width: 100%;
+}
+.img-res {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  outline: none;
+  border: 0;
+  border-radius: 25px;
+  padding: 10px 30px;
+}
+/* .label{
+    margin-bottom: 15px;
+} */
+
+/* Utitlities */
+
+/* Start of Ferra Info Header   */
+
+.ferra-info {
+  height: 68px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.37);
+}
+.ferra-info-social-mail {
+  display: flex;
+  width: 40%;
+  justify-content: flex-start;
+}
+.ferra-info-phone {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ferra-info-phone a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.ferra-info-phone:hover a {
+  color: #fbc90b;
+}
+.ferra-info-phone:hover svg path {
+  fill: #fbc90b;
+}
+.ferra-info-social a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+.ferra-info-social a:hover svg g circle {
+  fill: #fbc90b;
+}
+.ferra-info-mail {
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+.ferra-info-mail a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.ferra-info-mail:hover a {
+  color: #fbc90b;
+}
+.ferra-info-mail:hover svg g g g path {
+  fill: #fbc90b;
+}
+
+/* End of Ferra Info Header   */
+
+/* Start of  Header Nav   */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  transition: all 0.5s ease-in;
+}
+
+.header-nav {
+  width: 100%;
+  background-color: #fbc90b;
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0px 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+/* End of  Header Nav   */
+
+/* Start of  Home Video Section */
+.home-video {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-video::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.home-video-texts {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.play-btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  outline: none;
+  border: 0px;
+  background-color: #fbc90b;
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.play-btn::after {
+  content: "";
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  background-color: #fbcb0b63;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  animation: pulse-border 1500ms ease-out infinite;
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+
+.home-video-texts-title {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+}
+.home-video-texts-slogan {
+  font-size: 26px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+.home-video video {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+/* End of  Home Video Section */
+
+/* Start of Ferra Teknologji */
+.ferra-teknlogji {
+  display: flex;
+  margin-top: 50px;
+}
+.ferra-teknlogji-left {
+  width: 50vw;
+  margin-left: calc(-50vw + 50%);
+}
+.ferra-teknlogji-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 90px;
+}
+.ferra-teknlogji-right-subtitle {
+  text-transform: uppercase;
+}
+.ferra-teknlogji-right-title {
+  color: #d12026;
+  margin-bottom: 20px;
+}
+.ferra-teknlogji-right-btn {
+  background-color: #d12026;
+  color: white;
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 9.5px 36.7px;
+  text-transform: uppercase;
+}
+/* End of Ferra Teknologji */
+
+/* Start of Ferra Foto Seksion */
+.ferra-foto-seksion {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ferra-foto-seksion-title {
+  text-align: center;
+  color: #d12026;
+  margin-top: 40px;
+}
+.ferra-foto-seksion-text {
+  text-align: center;
+  margin-top: 20px;
+}
+/* End of Ferra Foto Seksion */
+
+/* Start of Ferra Produkte */
+.ferra-produkte {
+  width: 100%;
+  background-color: #f5f5f5;
+  margin-top: 100px;
+  padding: 100px 0 50px;
+}
+.ferra-produkte-slider {
+  display: flex;
+  justify-content: space-between;
+}
+.ferra-produkte-slider-item {
+  position: relative;
+}
+.ferra-produkte-slider-item-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 0 50px 20px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.ferra-produkte-slider-item-content-title {
+  color: white;
+  margin-bottom: 20px;
+}
+.ferra-produkte-slider-item-content-text {
+  color: white;
+  margin-bottom: 20px;
+}
+.ferra-produkte-slider-item-content-link {
+  text-decoration: none;
+  color: #fbc90b;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.ferra-produkte-slider-item-content-link svg {
+  margin-left: 10px;
+}
+/* End of Ferra Produkte */
+
+/* Start of OrizKing Section */
+.orizking-section {
+  width: 100%;
+  position: relative;
+  margin-top: 100px;
+}
+.orizking-section-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.orizking-section-content {
+  display: flex;
+  flex-direction: column;
+}
+.orizking-section-content-top {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.orizking-section-content-top-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(209, 32, 38, 0.8);
+  width: 40%;
+  margin-top: 40px;
+  padding: 40px;
+}
+.orizking-section-content-top-modal-subtitle {
+  color: white;
+  text-transform: uppercase;
+}
+.orizking-section-content-top-modal-title {
+  color: #fbc90b;
+}
+.orizking-section-content-top-modal-text {
+  color: white;
+  margin-top: 20px;
+}
+.orizking-section-content-top-modal-link {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px 50px;
+  margin-top: 20px;
+}
+.orizking-section-content-bottom {
+  margin-top: 90px;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.orizking-section-content-bottom-item {
+  position: relative;
+}
+.orizking-section-content-bottom-item-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 40px;
+}
+.orizking-section-content-bottom-item-title {
+  color: #fbc90b;
+}
+/* End of OrizKing Section */
+
+/* Start of PastaKing Section */
+
+.pastaking-section {
+  position: relative;
+  width: 100%;
+}
+.makaroni {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 20%;
+}
+.basil {
+  position: absolute;
+  right: 100px;
+  bottom: -170px;
+  z-index: -1;
+  width: 20%;
+}
+.pastaking-section-content {
+  display: flex;
+  flex-direction: column;
+}
+.pastaking-section-content-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+.pastaking-section-content-top-subtitle {
+  color: #d12026;
+  text-transform: uppercase;
+}
+.pastaking-section-content-top-text {
+  text-align: center;
+}
+.pastaking-section-content-bottom {
+  width: 100%;
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px;
+}
+.pastaking-section-content-bottom-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  max-width: 1500px;
+  width: 100%;
+  height: auto;
+}
+.pastaking-section-content-bottom-pasta {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.pastaking-section-content-bottom-pasta-item {
+  margin: 20px 0;
+  position: relative;
+  max-width: 510px;
+}
+.pastaking-section-content-bottom-pasta-item-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+.pastaking-section-content-bottom-pasta-item-content p {
+  color: #fbc90b;
+}
+/* End of PastaKing Section */
+
+/* Start of Ferma Section */
+
+.ferra-ferma {
+  display: flex;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+.ferra-ferma-left {
+  width: 50%;
+  position: relative;
+}
+.ferra-ferma-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+.ferra-ferma-right-subtitle {
+  color: #d12026;
+}
+.ferra-ferma-right-ilustration {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0;
+}
+.ferra-ferma-right-ilustration p {
+  display: flex;
+  align-items: center;
+}
+.ferra-ferma-right-ilustration svg {
+  margin-right: 20px;
+}
+.ferra-ferma-right-text {
+  margin: 20px 0;
+}
+.ferra-ferma-right-link {
+  background-color: #d12026;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 0;
+  padding: 10px 50px;
+}
+.ferma2-foto {
+  position: absolute;
+  bottom: -150px;
+  right: 100px;
+  z-index: 1;
+}
+/* End of Ferma Section */
+
+/* Start of Ferra Construction */
+.ferra-construction {
+  width: 100%;
+  margin-top: 250px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.ferra-cos-img {
+  object-fit: cover;
+}
+.ferra-construction-content {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  display: flex;
+}
+.ferra-construction-content-left {
+  background-color: #fbc90b;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: -50px 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.ferra-construction-content-right {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin-bottom: -50px;
+}
+.ferra-construction-content-left-subtitle {
+  color: #d12026;
+  margin-top: 50px;
+}
+.ferra-construction-content-left-text {
+  margin: 30px 0;
+}
+.ferra-construction-content-left-link {
+  color: white;
+  text-decoration: none;
+  background-color: #d12026;
+  padding: 10px 50px;
+  margin-top: 20px;
+}
+/* End of Ferra Construction */
+
+/* Start of Ferra Collab */
+.ferra-bashkepuno {
+  width: 100%;
+  margin-top: 150px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.ferra-bashkepuno-content {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+}
+.ferra-bashkepuno-content-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.ferra-bashkepuno-content-left-title {
+  color: #fbc90b;
+  margin-bottom: 20px;
+}
+.ferra-bashkepuno-content-left-text {
+  color: white;
+  padding-right: 150px;
+}
+.ferra-bashkepuno-content-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ferra-bashkepuno-content-right-form {
+  background-color: white;
+  padding: 40px;
+}
+.ferra-bashkepuno-content-right-form-emri {
+  margin-top: 20px;
+  display: flex;
+}
+.ferra-bashkepuno-content-right-form-emri div {
+  display: flex;
+  flex-direction: column;
+}
+.ferra-bashkepuno-content-right-form-emri input {
+  height: 50px;
+  width: 200px;
+}
+.ferra-bashkepuno-content-right-form-emri div:first-child input {
+  margin-right: 50px;
+}
+.ferra-bashkepuno-content-right-form-mesazhi {
+  margin-top: 20px;
+}
+.ferra-bashkepuno-content-right-form-mesazhi textarea {
+  width: 100%;
+  resize: none;
+  height: 180px;
+  outline: none;
+}
+.ferra-bashkepuno-content-right-form-email {
+  margin-top: 30px;
+}
+.ferra-bashkepuno-content-right-form-email input {
+  width: 100%;
+  height: 50px;
+}
+.submit-btn {
+  background-color: #d12026;
+  color: white;
+  width: 100%;
+  border-radius: 0;
+  margin-top: 20px;
+  cursor: pointer;
+}
+/* End of Ferra Collab */
+
+/* Start of Ferra Blog */
+
+.ferra-blog {
+  margin-top: 200px;
+  margin-bottom: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ferra-blog-subtitle {
+  color: #d12026;
+  text-transform: uppercase;
+}
+.ferra-blog-items {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.ferra-blog-items-item {
+  max-width: 470px;
+  position: relative;
+}
+.ferra-blog-items-item-label {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  background-color: #fbc90b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px 10px;
+}
+
+.ferra-blog-items-item-content {
+  position: absolute;
+  bottom: -200px;
+  background-color: white;
+  margin: 0px 30px;
+  padding: 10px 20px;
+  box-shadow: 0 20px 46px rgba(0, 0, 0, 0.116);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ferra-blog-items-item-content-title {
+  margin: 20px 0;
+}
+.ferra-blog-items-item-content-text {
+  margin: 20px 0;
+}
+.ferra-blog-items-item-content-link {
+  background-color: #d12026;
+  color: white;
+  margin-top: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 50px;
+  align-self: center;
+}
+
+/* End of Ferra Blog */
+
+/* Start of Footer */
+
+.footer {
+  background-image: url("/assets/images/footer-back.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.footer-content {
+  padding: 120px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-content-item-title {
+  color: #fbc90b;
+}
+.footer-content-item-text {
+  color: white;
+  margin: 20px 0;
+}
+.footer-content-item-list-quicklinks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.footer-content-item-list-quicklinks a {
+  color: white;
+  text-decoration: none;
+}
+.insta-galeri {
+  margin-top: 20px;
+}
+.footer-content-item-kontakt {
+  display: flex;
+  flex-direction: column;
+}
+.footer-content-item-location {
+  color: white;
+  margin-top: 20px;
+}
+.footer-content-item-email {
+  color: #fbc90b;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.footer-content-item-social {
+  margin-top: 20px;
+}
+.footer-content-item-social a {
+  margin-right: 10px;
+  color: transparent;
+}
+/* End of Footer */
+
+/*Start of About Ferra */
+
+/*Start of About ShortInfo Ferra */
+
+.ferra-about-shortinfo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.ferra-about-shortinfo img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+.ferra-about-shortinfo-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ferra-about-shortinfo-content-title {
+  color: white;
+}
+.ferra-about-shortinfo-content-text {
+  color: white;
+  text-align: left;
+}
+.ferra-about-shortinfo-content-subtitle {
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.ferra-about-shortinfo-content-subtitle span {
+  color: #d12026;
+}
+.ferra-about-shortinfo-content-subtitle svg {
+  margin: 0 10px;
+}
+
+/*End of About ShortInfo Ferra */
+
+/*Start of About Vizioni Ferra */
+.ferra-about-vizioni {
+  display: flex;
+  margin-top: 50px;
+}
+.ferra-about-vizioni-left {
+  width: 50vw;
+  margin-left: calc(-50vw + 50%);
+}
+.ferra-about-vizioni-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+.ferra-about-vizioni-right-title {
+  color: #202020;
+}
+/*End of About Vizioni Ferra */
+
+/*Start of About CEO Ferra */
+
+.ferra-about-ceo {
+  width: 100%;
+  background-color: #2d2d2d;
+  margin-top: 50px;
+  margin-bottom: 500px;
+}
+.ferra-about-ceo-container {
+  display: flex;
+  padding: 90px 0 50px;
+}
+.ferra-about-ceo-container-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-right: 300px;
+}
+.ferra-about-ceo-container-left-text {
+  color: white;
+}
+.ferra-about-ceo-container-left-title {
+  color: white;
+  margin-top: 30px;
+}
+.ferra-about-ceo-container-left-subtitle {
+  color: #cbcbcb;
+  margin-top: 10px;
+}
+.ferra-about-ceo-container-right {
+  width: 50%;
+  position: relative;
+}
+.ferra-about-ceo-container-right-content {
+  position: absolute;
+  top: -50px;
+}
+
+/*End of About CEO Ferra */
+
+/*Start of About Tech Ferra */
+
+.ferra-about-tech {
+  width: 100%;
+  position: relative;
+  margin-top: 100px;
+  background-image: url("assets/images/ferra-about-tech.jpg");
+}
+
+.ferra-about-tech-container {
+  display: flex;
+  padding: 95px 0;
+}
+.ferra-about-tech-left {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+.ferra-about-tech-right {
+  width: 45%;
+  padding-left: 100px;
+}
+.ferra-about-tech-right-subtitle {
+  color: #d12026;
+  text-transform: uppercase;
+}
+.ferra-about-tech-right-text {
+  margin-top: 10px;
+}
+/*End of About Tech Ferra */
+
+/*Start of About Partneret Ferra  */
+
+.ferra-about-partneret {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+.ferra-about-partneret-subtitle {
+  color: #d12026;
+  text-transform: uppercase;
+}
+
+.ferra-about-partneret-sliders {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.ferra-about-partneret-sliders svg {
+  cursor: pointer;
+}
+.ferra-about-partneret-sliders-items {
+  display: flex;
+}
+.ferra-about-partneret-sliders-items-item {
+  margin: 0 40px;
+}
+
+/*End of About Partneret Ferra  */
+
+/*Start of About Ekipi Ferra  */
+
+.ferra-about-ekipi {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ferra-about-ekipi-subtitle {
+  color: #d12026;
+  text-transform: uppercase;
+}
+.ferra-about-ekipi-slider {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.ferra-about-ekipi-slider-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ferra-about-ekipi-slider-item-subtitle {
+  color: #d12026;
+}
+.ferra-about-ekipi-slider-buttons svg {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+/*End of About Ekipi Ferra  */
+
+/*End of About Ferra */
+
+/*Start of Blog Ferra */
+
+/*Start of BlogStart  Ferra */
+.blog-start {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.blog-start-title {
+  color: white;
+  position: absolute;
+  bottom: 90px;
+}
+/*End of BlogStart  Ferra */
+
+/*Start of Blog Items  Ferra */
+
+.blog-items {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.blog-items-posts {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.blog-items-widgets {
+  display: flex;
+  flex-direction: column;
+  max-width: 363px;
+}
+.blog-items-posts-post {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 100px;
+}
+.blog-items-posts-post-btn {
+  background-color: #d12026;
+  text-decoration: none;
+  color: white;
+  border-radius: 29px;
+  padding: 10px 40px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+.blog-items-posts-post-date {
+  margin: 40px 0 20px;
+}
+.blog-items-posts-post-date svg {
+  margin-right: 10px;
+}
+.blog-items-posts-post-text {
+  margin-top: 30px;
+}
+.blog-items-posts-pagination {
+  display: flex;
+  align-items: center;
+}
+.blog-items-posts-pagination svg {
+  cursor: pointer;
+  margin-right: 10px;
+}
+.blog-items-posts-pagination svg:last-child {
+  margin-left: 10px;
+}
+
+.blog-items-posts-pagination-number {
+  border-radius: 50%;
+  height: 67px;
+  width: 67px;
+  border: 1px solid #2d2d2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  cursor: pointer;
+}
+.active-pagination {
+  border: 1px solid #fbc90b;
+  color: #fbc90b;
+}
+.blog-items-widgets-recentposts {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+.blog-items-widgets-recentposts-header {
+  background-color: #fbc90b;
+  padding-left: 20px;
+}
+.blog-items-widgets-recentposts-items {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.blog-items-widgets-recentposts-items-item {
+  background-color: #fbc90b;
+  border-radius: 19px;
+  display: flex;
+  padding: 10px;
+  margin: 15px 0;
+}
+.blog-items-widgets-recentposts-items-item-left {
+  display: flex;
+}
+.blog-items-widgets-recentposts-items-item-right {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-left: 10px;
+}
+.blog-items-widgets-recentposts-items-item-right-text {
+  margin-top: 10px;
+}
+.blog-items-widgets-recentposts-items-item-right-date {
+  margin-top: 10px;
+}
+.blog-items-widgets-instagram {
+  max-width: 363px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.blog-items-widgets-instagram-header {
+  background-color: #fbc90b;
+  padding-left: 20px;
+}
+/*End of Blog Items  Ferra */
+
+/*End of Blog Ferra */
+
+/*Start of Ferra Construction */
+
+.consctruction-start {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.consctruction-start-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.consctruction-start-content-subtitle {
+  color: #fbc90b;
+  text-transform: uppercase;
+}
+
+.consctruction-start-content-title {
+  color: white;
+}
+.consctruction-start-content-text {
+  color: white;
+}
+
+.consctruction-donbosko {
+  background-image: url("assets/images/don-bosko.jpg");
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  padding-bottom: 150px;
+}
+.consctruction-donbosko-container {
+  display: flex;
+}
+.consctruction-donbosko-container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  padding-right: 100px;
+}
+.consctruction-donbosko-container-right {
+  display: flex;
+  width: 50%;
+}
+.consctruction-donbosko-container-left-subtitle {
+  color: #d12026;
+}
+.consctruction-donbosko-container-left-text {
+  margin-top: 30px;
+}
+.consctruction-donbosko-container-left-info {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.consctruction-donbosko-container-left-info p {
+  margin-right: 50px;
+}
+
+.consctruction-projekt {
+  margin-top: 40px;
+  display: flex;
+  margin-bottom: 150px;
+}
+.consctruction-projekt-left {
+  width: 50%;
+  display: flex;
+}
+.consctruction-projekt-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 100px;
+}
+.consctruction-projekt-right-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 100%;
+}
+.consctruction-projekt-right-subtitle {
+  color: #d12026;
+  text-transform: uppercase;
+}
+.consctruction-projekt-right-text {
+  margin-top: 30px;
+}
+.consctruction-invest {
+  width: 100%;
+  background-color: #e8e8e8;
+  margin-bottom: 100px;
+}
+.consctruction-invest-container {
+  display: flex;
+  padding-top: 150px;
+}
+.consctruction-invest-container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  padding-right: 100px;
+}
+.consctruction-invest-container-right {
+  width: 50%;
+  display: flex;
+}
+.consctruction-invest-container-left-text {
+  margin-top: 30px;
+}
+.consctruction-invest-container-left-btn {
+  background-color: #d12026;
+  color: white;
+  text-decoration: none;
+  padding: 5px 50px;
+  margin-top: 30px;
+  border-radius: 29px;
+  text-transform: uppercase;
+}
+.consctruction-invest-container-galeri {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: -100px;
+  padding-bottom: 150px;
+}
+.consctruction-invest-container-galeri img:nth-child(2) {
+  margin: 0 40px;
+}
+.consctruction-invest-container-galeri img {
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+}
+/*End of Ferra Construction */
+
+/*Start of Ferra Kontakt */
+
+.kontakt-start {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+.kontakt-start-title {
+  color: white;
+  position: absolute;
+  bottom: 60px;
+}
+.kontakt-harta {
+  width: 100%;
+  display: flex;
+}
+.kontakt-harta iframe {
+  width: 100%;
+}
+
+.kontakt-form-info {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+}
+.kontakt-form-content {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.kontakt-form-content-all {
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 80px 50px 60px;
+  padding-left: 50px;
+  margin-right: -50px;
+  padding-right: 80px;
+}
+.kontakt-form-content-all-subtitle {
+  margin-bottom: 52px;
+  margin-top: 10px;
+}
+.kontakt-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #707070;
+  background-color: transparent;
+  padding: 5px;
+}
+.input::placeholder {
+  color: black;
+}
+.name-input {
+  width: 100%;
+}
+.kontakt-form-email-phone {
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+}
+.email-input {
+  width: 50%;
+  margin-right: 40px;
+}
+.phone-input {
+  width: 50%;
+}
+.subject-input {
+  margin-top: 40px;
+  width: 100%;
+}
+.message-input {
+  margin-top: 40px;
+  width: 100%;
+}
+.kontakt-submit-btn {
+  background-color: #d12026;
+  color: white;
+  margin-top: 50px;
+  padding: 10px 40px;
+  border-radius: 29px;
+  text-transform: uppercase;
+}
+
+.kontakt-info {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.kontakt-info-content {
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.info-pixels {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.info-square {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+.kontakt-info-content-title {
+  color: #fbc90b;
+  margin-top: 50px;
+}
+.kontakt-info-content-adresa-title {
+  color: white;
+  margin-top: 30px;
+}
+.kontakt-info-content-phone-title {
+  color: white;
+  margin-top: 30px;
+}
+.kontakt-info-content-email-title {
+  color: white;
+  margin-top: 30px;
+}
+.kontakt-info-content-adresa-1 {
+  color: #ababab;
+}
+.kontakt-info-content-phone-1 {
+  color: #ababab;
+}
+.kontakt-info-content-email-1 {
+  color: #ababab;
+}
+/*End of Ferra Kontakt */
+
+/* Start of Ferra Food */
+
+.food-start {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.food-start-title {
+  color: #d12026;
+}
+.food-start-text {
+  margin-top: 20px;
+}
+.food-orizking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+.food-orizking-title {
+  color: #d12026;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.food-orizking-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.food-orizking-content-left-title {
+  color: #d12026;
+  margin-top: 40px;
+  position: relative;
+}
+.food-orizking-content-left-title::before {
+  content: "";
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  background-color: rgba(209, 32, 38, 0.3);
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: -20px;
+}
+.food-orizking-content-left-title::after {
+  content: "";
+  position: absolute;
+  height: 9px;
+  width: 9px;
+  background-color: rgba(209, 32, 38, 1);
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: -20px;
+}
+
+.food-orizking-content-left p:nth-child(3)::before {
+  background-color: rgba(25, 100, 178, 0.3);
+}
+
+.food-orizking-content-left p:nth-child(3)::after {
+  background-color: rgba(25, 100, 178, 1);
+}
+
+.food-orizking-content-left p:nth-child(5)::before {
+  background-color: rgba(207, 93, 5, 0.3);
+}
+
+.food-orizking-content-left p:nth-child(5)::after {
+  background-color: rgba(207, 93, 5, 1);
+}
+
+.food-orizking-content-right-title {
+  color: #d12026;
+  margin-top: 40px;
+  position: relative;
+}
+.food-orizking-content-right-title::before {
+  content: "";
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  background-color: rgba(62, 214, 40, 0.3);
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: -20px;
+}
+.food-orizking-content-right-title::after {
+  content: "";
+  position: absolute;
+  height: 9px;
+  width: 9px;
+  background-color: rgba(62, 214, 40, 1);
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: -20px;
+}
+.food-orizking-content-right p:nth-child(3)::before {
+  background-color: rgba(61, 198, 240, 0.3);
+}
+
+.food-orizking-content-right p:nth-child(3)::after {
+  background-color: rgba(61, 198, 240, 1);
+}
+
+.food-orizking-content-right p:nth-child(5)::before {
+  background-color: rgba(161, 0, 52, 0.3);
+}
+
+.food-orizking-content-right p:nth-child(5)::after {
+  background-color: rgba(161, 0, 52, 1);
+}
+.food-orizking-content-center {
+  background-color: #fbc90b;
+}
+.food-orizking-content-center {
+  padding: 100px 100px 140px 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.food-orizking-content-center img {
+  position: absolute;
+  bottom: -100%;
+}
+.food-pastaking {
+  margin-top: 600px;
+  background-image: url("assets/images/food-pasta-back.jpg");
+  background-repeat: no-repeat;
+}
+.food-pastaking-container {
+  display: flex;
+  padding: 120px 0 500px;
+}
+.food-pastaking-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+}
+.food-pastaking-left-subtitle {
+  color: white;
+  text-transform: uppercase;
+}
+.food-pastaking-left-title {
+  color: #fbc90b;
+}
+.food-pastaking-left-text {
+  color: white;
+}
+.food-pastaking-right {
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 0 100px;
+}
+.food-pastaking-right img {
+  position: absolute;
+  top: 0;
+}
+.food-gluten {
+  width: 100%;
+  background-color: #fff4cc;
+  margin-top: 20px;
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+.food-gluten-container-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.food-gluten-container-top-subtitle {
+  color: #d12026;
+  text-transform: uppercase;
+}
+.food-gluten-container-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  align-items: center;
+}
+.food-gluten-container-bottom-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.food-gluten-container-bottom-item-text {
+  font-family: "Great Vibes", cursive;
+  margin-top: 100px;
+}
+.food-pastamix {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.food-sheqeri {
+  width: 100%;
+  background-color: #e8e8e8;
+  margin-top: 250px;
+}
+.food-sheqeri-container {
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 200px;
+}
+.food-sheqeri-container-left {
+  display: flex;
+  width: 50%;
+  position: relative;
+}
+.food-sheqeri-container-left-content {
+  position: absolute;
+  background-color: white;
+  padding: 100px 50px;
+  left: 0;
+  top: -140%;
+  box-shadow: 0 3px 61px rgba(0, 0, 0, 0.116);
+}
+.food-sheqeri-container-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0 50px;
+}
+.food-sheqeri-container-right-subtitle {
+  color: #d12026;
+  text-transform: uppercase;
+}
+.food-sheqeri-container-right-text {
+  margin-top: 30px;
+}
+.food-vajking {
+  display: flex;
+  margin-top: 100px;
+}
+
+.food-vajking-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  margin-top: 175px;
+}
+.food-vajking-left-subtitle {
+  color: #d12026;
+  text-transform: uppercase;
+}
+
+.food-vajking-left-image-content {
+  align-self: center;
+  margin-top: 50px;
+}
+.food-vajking-left-text {
+  margin-top: 30px;
+}
+.food-vajking-right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.food-thjerreza {
+  display: flex;
+}
+.food-thjerreza-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 100px;
+}
+.food-thjerreza-left-text {
+  margin-top: 30px;
+  padding-right: 200px;
+}
+.food-thjerreza-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+}
+.food-thjerreza-left-subtitle {
+  color: #d12026;
+  text-transform: uppercase;
+}
+.food-meillking {
+  background-color: #d12026;
+  width: 100%;
+  margin-top: 250px;
+  margin-bottom: 300px;
+}
+.food-meillking-container {
+  display: flex;
+  padding: 100px 0;
+}
+.food-meillking-container-left {
+  width: 50%;
+  position: relative;
+}
+.food-meillking-container-left-content {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  box-shadow: 0 25px 63px rgba(0, 0, 0, 0.3);
+}
+.food-meillking-container-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+.food-meillking-container-right-subtitle {
+  color: #fbc90b;
+  text-transform: uppercase;
+}
+
+.food-meillking-container-right-title {
+  color: white;
+}
+.food-meillking-container-right-text {
+  color: white;
+  margin-top: 20px;
+}
+/* End of Ferra Food */

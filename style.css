@@ -51,6 +51,9 @@ html {
 .fs-26 {
   font-size: 26px;
 }
+.fs-28 {
+    font-size: 28px;
+}
 .fs-30 {
   font-size: 30px;
 }
@@ -104,7 +107,12 @@ html {
 /* .label{
     margin-bottom: 15px;
 } */
-
+.side-menu{
+    display: none;
+}
+.side-menu-opa{
+    display: none;
+}
 /* Utitlities */
 
 /* Start of Ferra Info Header   */
@@ -182,6 +190,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.header-nav-mobile{
+    display: none;
 }
 .header-nav a {
   text-decoration: none;
@@ -1846,6 +1857,7 @@ html {
         align-items: center;
         justify-content: space-around;
     }
+
         /*End Ferra Kreu */
 }
 @media (max-width: 1500px) { 
@@ -1872,6 +1884,17 @@ html {
     .ferra-construction-content{
         height: auto;
         position: relative;
+        flex-direction: column;
+    }
+    .ferra-construction-content-left{
+        width: 100%;
+        margin: 0;
+        padding-bottom: 40px;
+    }
+    .ferra-construction-content-right{
+        width: 100%;
+        margin-top: 20px;
+
     }
     .ferra-ferma{
         flex-direction: column-reverse;
@@ -1919,6 +1942,31 @@ html {
     .pastaking-section-content-bottom-pasta-item:nth-child(2){
         margin: 0 20px;
     }
+    .pastaking-section-content-top-text{
+        margin-bottom: 20px;
+    }
+    .pastaking-section-content-bottom{
+        margin-top: 0;
+    }
+    .orizking-section-content-bottom{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .orizking-section-content-bottom-item{
+        max-width: 300px;
+    }
+    .orizking-section-content-bottom-item:nth-child(2){
+        margin: 0 30px;
+    }
+    .ferra-bashkepuno-content-right-form{
+        padding: 20px;
+        margin-top: 100px;
+        box-shadow: 0 10px 10px rgb(1 1 1 / 20%);
+    }
+    .ferra-bashkepuno-content-left{
+        padding-left: 20px;
+
+    }
         /*End Ferra Kreu */
 }
 
@@ -1956,6 +2004,7 @@ html {
     }
     .ferra-bashkepuno{
         flex-direction: column;
+        margin-top: 0;
     }
     .ferra-bashkepuno img {
         display: none;
@@ -1964,12 +2013,15 @@ html {
         position: relative;
         height: auto;
         flex-direction: column;
+        background-image: url('assets/images/ferra-collab.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
     }
     .ferra-bashkepuno-content-left{
         width: 100%;
-        background-image: url('assets/images/ferra-collab.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
+
         padding: 100px 50px;
     }
 
@@ -2032,11 +2084,20 @@ html {
     .orizking-section-content-top-modal{
         width: 50%;
     }
+    .orizking-section-content-bottom-item{
+        max-width: 250px;
+    }
+    .orizking-section-content-top-modal-title{
+        font-size: 32px;
+    }
     .ferra-blog{
         margin-top: 50px;
     }
     .pastaking-section-content-bottom-pasta-item-content p{
         font-size: 20px;
+    }
+    .ferra-construction-content-right img {
+        display: none;
     }
     /*End Ferra Kreu */
 }
@@ -2066,6 +2127,426 @@ html {
         align-self: center;
         margin-top: 40px;
     }
+    .orizking-section-content-top-modal{
+        margin-top: 10px;
+    }
+    .orizking-section-content-bottom{
+        margin-top: 10px;
+    }
+    .header-nav a{
+        font-size: 16px;
+    }
+}
+
+@media  (max-width: 999px){
+    .side-menu{
+        display: flex;
+        background-color: rgba(209, 32, 38, .9);
+        position: fixed;
+        z-index: 102;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        transform: translateX(100%);
+        transition: all .4s ease;
+        overflow: auto;
+        flex-direction: column;
+        padding: 40px;
+    }
+    .side-menu-close-div{
+        align-self: flex-end;
+    }
+    .close-side-menu{
+        width: 45px;
+        height: 45px; 
+    }
+    .side-menu-links{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .side-menu-links-link{
+        color: white;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+    .side-menu-socials{
+        align-self: center;
+       margin-top: 230px;
+    }
+    .side-menu-socials a {
+        text-decoration: none;
+    
+    }
+    .side-menu-socials a:nth-child(2){
+        margin: 0 20px;
+    }
+    .side-menu-opa{
+        display: block;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(1,1,1 ,0);
+        z-index: 101;
+        transform: translateX(-1000%);
+    }
+    .side-menu-open {
+        transform: translateX(0);
+    }
+    .header-nav {
+        display: none;
+    }
+.header-nav-mobile{
+    width: 100%;
+    background-color: #fbc90b;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header-nav-mobile svg{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%,-50%);
+}
+.ferra-info{
+    height: 40px;
+}
+.ferra-info-social{
+    display: none;
+}
+.ferra-teknlogji{
+    flex-direction: column;
+}
+.ferra-teknlogji-left{
+    width: 100%;
+}
+.ferra-teknlogji-right{
+    width: 100%;
+    padding: 0;
+}
+.orizking-section-content-top-modal{
+    width: 90%;
+}
+.orizking-section-content-bottom-item-title{
+    font-size: 24px;
+}
+.footer{
+    background-image:none;
+    background-color: #202020;
+}
+.footer-content{
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+
+}
+.footer-content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+.home-video{
+    align-items: flex-end;
+}
+.home-video-texts-title{
+    font-size: 40px;
+}
+.home-video-texts-slogan{
+    font-size: 18px;
+}
+.home-video-texts{
+    bottom: 20px;
+}
+.ferra-produkte-slider-item-content{
+    padding: 0 10px 20px;
+}
+.ferra-produkte-slider-item-content-title{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.ferra-produkte-slider-item-content-text{
+    margin-bottom: 10px;
+}
+.ferra-produkte-slider-item-content-link{
+    margin-bottom: 5px;   
+}
+.ferra-produkte-slider-item-content-link svg{
+    margin-left: 1px;
+}
+.orizking-section-img{
+    display: none;
+}
+.orizking-section-content-top{
+    background-image: url('assets/images/oriz-king-back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+.ferra-blog-items-item-content-title{
+    font-size: 16px;
+}
+.ferra-blog-items-item-content-text{
+    font-size: 15px;
+}
+.ferra-blog-items-item-content-link{
+    font-size: 14px;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
 }
 
 
+@media  (max-width: 750px){
+    .home-video{
+        margin-top: 50px;
+    }
+    .ferra-info{
+        justify-content: space-between;
+    }
+    .ferra-info-phone{
+        justify-content: flex-start;
+        padding-left: 10px;
+    }
+    .ferra-info-phone svg {
+        width: 20px;
+        height: 20px;
+    }
+    .ferra-info-social-mail{
+        justify-content: flex-end;
+        padding-right: 10px;
+    }
+    .ferra-info-phone a{
+        font-size: 14px;
+    }
+    .ferra-info-mail a{
+        font-size: 14px;
+    }
+    .ferra-info-mail{
+        margin-left: 0;
+    }
+    .ferra-info-mail svg{
+        width: 28px;
+        height: 18px;
+    }
+    .home-video-texts-title{
+        font-size: 24px;
+    }
+    .ferma2-foto{
+        display: none;
+    }
+    .ferra-construction{
+        margin-top: 50px;
+    }
+    .ferra-construction-content-left-title{
+            font-size: 32px;
+    }
+    .ferra-produkte-slider-item:nth-child(odd){
+        display: none;
+    }
+    .ferra-produkte-slider{
+        justify-content: center;
+    }
+    .ferra-blog-items-item:nth-child(odd){
+        display: none;
+    }
+    .ferra-blog-items{
+        justify-content: center;
+    }
+    .ferra-construction-content-left-text{
+        margin: 10px 0;
+    }
+    .orizking-section-content-bottom{
+        margin-top: -50px;
+        padding: 0 20px;
+    }
+    .ferra-bashkepuno-content-left-title{
+        font-size: 30px;
+    }
+    .ferra-bashkepuno-content-left-text{
+        padding-right: 0;
+    }
+    .ferra-bashkepuno-content-left-text br {
+        display: none;
+    }
+    .ferra-bashkepuno-content-left-title br {
+        display: none;
+    }
+    .pastaking-section-content-bottom-pasta{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 20px;
+    }
+    .pastaking-section-content-bottom-pasta-item{
+        max-width: 300px;
+    }
+    .pastaking-section-content-bottom-pasta-item:nth-child(2){
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .pastaking-section-content-bottom-pasta-item{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .ferra-foto-seksion-title{
+        font-size: 40px;
+    }
+    .pastaking-section-content-top-title{
+        font-size: 40px;
+    }
+    .ferra-ferma-right-title{
+        font-size: 40px;
+    }
+    .ferra-bashkepuno-content-left{
+        padding: 0 20px;
+    }
+    .pastaking-section-content-top{
+        margin-top: 50px;
+    }
+    .side-menu-links-link{
+        font-size:20px;
+    }
+}
+
+@media  (max-width: 500px){ 
+    .ferra-ferma-left img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+    .ferra-ferma-right-ilustration{
+        flex-direction: column;
+    }
+    .ferra-ferma-right-ilustration p{
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .ferra-ferma-right-ilustration p br {
+        display: none;
+    }
+    .ferra-ferma-right-ilustration p svg {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .ferra-ferma-right-link{
+        font-size: 16px;
+        padding: 5px 20px;
+    }
+    .ferra-bashkepuno-content-right-form{
+        width: 100%;
+    }
+
+    .ferra-bashkepuno-content-right-form-emri{
+        width: 100%;
+    }
+    .ferra-bashkepuno-content-right-form-emri div:first-child input{
+        margin-right: 5px;
+    }
+    .ferra-bashkepuno-content-right-form-emri{
+        flex-direction: column;
+    }
+    .ferra-bashkepuno-content-right-form-emri div{
+        width: 100%;
+    }
+    .ferra-bashkepuno-content-right-form-emri input{
+        width: 100%;
+    }
+    .ferra-construction-content-left-subtitle{
+        font-size: 16px;
+    }
+
+    .ferra-construction-content-left-link{
+        font-size: 16px;
+        padding: 5px 20px;
+    }
+    .home-video-texts-title{
+        font-size: 18px;
+    }
+    .home-video-texts-slogan{
+        font-size: 14px;
+    }
+    .play-btn{
+        width: 32px;
+        height: 32px;
+        margin-top: 10px;
+    }
+    .play-btn::after{
+        width: 52px;
+        height: 52px;
+    }
+    .play-btn svg {
+        width: 15px;
+        height: 15px;
+    }
+    .orizking-section-content-bottom-item-title{
+        font-size: 14px;
+    }
+    .orizking-section-content-top-modal{
+        padding: 10px;
+        width: 100%;
+    }
+    .ferra-blog-title{
+            font-size: 24px;
+    }
+    .ferra-blog-subtitle{
+        font-size: 16px;
+    }
+    .ferra-info-phone a{
+        font-size: 12px;
+    }
+    .ferra-info-phone svg{
+        width: 10px;
+        height: 10px;
+    }
+    .ferra-info-mail a{
+        font-size: 12px;
+    }
+    .ferra-info-mail svg{
+        width: 15px;
+        height: 15px;
+
+    }
+    .ferra-bashkepuno-content-right{
+        padding: 0 20px;
+    }
+    .ferra-foto-seksion-title{
+        font-size: 24px;
+    }
+    .ferra-construction-content-left-title{
+        font-size: 24px;
+    }
+    .ferra-construction-content-left{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .submit-btn{
+        font-size: 14px;
+    }
+    .side-menu-links-link{
+        font-size: 16px;
+    }
+    .side-menu-socials{
+        margin-top: 100px;
+    }
+    .side-menu-socials a svg{
+            height: 30px;
+            width: 30px;
+    }
+.side-menu{
+    width: 70%;
+}
+.close-side-menu{
+    width: 30px;
+    height: 30px;
+}
+}

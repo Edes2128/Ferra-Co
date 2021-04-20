@@ -1825,30 +1825,6 @@ html {
     .ferra-produkte-slider-item:nth-child(2){
         margin: 0 20px;
     }
-    /* .pastaking-section-content-bottom-pasta{
-        width: 100%;
-        flex-direction: row;
-    }
-    .pastaking-section-content-bottom{
-        flex-direction: column-reverse;
-        padding: 0 ;
-
-    }
-    .pastaking-section-content-bottom-img{
-        position: relative;
-        max-width: 100%;
-    }
-    .pastaking-section-content-bottom-pasta{
-        padding-left: 0;
-        margin-right: 0;
-        margin-bottom: 50px;
-    }
-    .pastaking-section-content-bottom-pasta-item{
-        margin: 0;
-    }
-    .pastaking-section-content-bottom-pasta-item:nth-child(2){
-        margin: 0 20px;
-    } */
     .ferra-construction-content-left{
         margin-right: 0;
     }
@@ -1857,8 +1833,15 @@ html {
         align-items: center;
         justify-content: space-around;
     }
-
         /*End Ferra Kreu */
+
+        .blog-items-posts{
+            padding-left: 20px;
+        }
+        .blog-items-widgets{
+            padding-right: 20px;
+        }
+
 }
 @media (max-width: 1500px) { 
     .pastaking-section-content-bottom-pasta{
@@ -2303,6 +2286,28 @@ html {
     padding: 5px 15px;
     margin-top: 20px;
 }
+.blog-items{
+    flex-direction: column;
+}
+.blog-items-posts{
+    width: 100%;
+    padding: 0 20px;
+}
+.blog-items-posts-pagination{
+    justify-content: center;
+}
+.blog-items-widgets{
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+.blog-start-title{
+    bottom: 10px;
+    font-size: 30px;
+}
+
 }
 
 
@@ -2414,6 +2419,24 @@ html {
     }
     .side-menu-links-link{
         font-size:20px;
+    }
+    .blog-start{
+        margin-top: 40px;
+    }
+    .blog-items-posts-post-title{
+        font-size: 20px;
+    }
+    .blog-items-posts-post-btn{
+            padding: 5px 20px;
+    }
+    .blog-items-posts-post-text{
+        margin-top: 10px;
+    }
+    .blog-items-posts-post{
+        margin-bottom: 40px;
+    }
+    .blog-items{
+        margin-top: 20px;
     }
 }
 
@@ -2548,5 +2571,9 @@ html {
 .close-side-menu{
     width: 30px;
     height: 30px;
+}
+.blog-start-title{
+    font-size: 20px;
+    bottom: 5px;
 }
 }

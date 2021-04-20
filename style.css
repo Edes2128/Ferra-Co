@@ -2148,7 +2148,7 @@ html {
         right: 0;
         width: 60%;
         height: 100%;
-        transform: translateX(100%);
+        transform: translateX(1000%);
         transition: all .4s ease;
         overflow: auto;
         flex-direction: column;

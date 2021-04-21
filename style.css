@@ -2622,6 +2622,7 @@ html {
   .food-vajking-left {
     width: 100%;
     padding-left: 20px;
+    padding-right: 20px;
   }
   .food-vajking-right {
     width: 100%;
@@ -2669,6 +2670,9 @@ html {
   }
   .food-meillking-container-right-title {
     font-size: 30px;
+  }
+  .food-thjerreza-left-text{
+    padding-right: 20px;
   }
 }
 
@@ -2888,6 +2892,9 @@ html {
   .consctruction-start {
     margin-top: 40px;
   }
+  .food-pastaking-right img{
+    max-width: 60%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -3081,5 +3088,8 @@ html {
   }
   .food-orizking-content-left-title {
     font-size: 20px;
+  }
+  .food-pastaking-right img{
+    max-width: 100%;
   }
 }

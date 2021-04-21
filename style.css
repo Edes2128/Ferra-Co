@@ -1683,7 +1683,7 @@ html {
 .food-sheqeri {
   width: 100%;
   background-color: #e8e8e8;
-  margin-top: 250px;
+  margin-top: 350px;
 }
 .food-sheqeri-container {
   display: flex;
@@ -1903,6 +1903,46 @@ html {
   .consctruction-invest-container-left {
     padding-right: 30px;
   }
+  .food-orizking-content {
+    padding: 0 30px;
+  }
+  .food-gluten-container {
+    padding: 0 20px;
+  }
+  .food-pastaking-left {
+    padding-left: 20px;
+  }
+  .food-pastamix {
+    padding: 0 20px;
+  }
+  .food-sheqeri-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .food-sheqeri-container-right {
+    padding: 0;
+  }
+  .food-vajking {
+    padding-left: 20px;
+  }
+  .food-thjerreza {
+    padding-left: 20px;
+  }
+  .food-meillking-container-left-content {
+    position: unset;
+  }
+  .food-meillking-container-right {
+    justify-content: center;
+  }
+  .food-meillking {
+    margin-bottom: 0;
+  }
+  .food-orizking-content-right {
+    padding-left: 40px;
+  }
+  .food-orizking-content-left {
+    padding-left: 40px;
+  }
 }
 @media (max-width: 1400px) {
   /*Start Ferra Kreu */
@@ -2031,6 +2071,15 @@ html {
   }
   .consctruction-projekt-right {
     padding-left: 20px;
+  }
+  .food-sheqeri-container-left-content {
+    position: unset;
+  }
+  .food-orizking-content-center img {
+    bottom: -100%;
+  }
+  .food-orizking-content-center {
+    padding: 20px 20px 200px 20px;
   }
 }
 
@@ -2161,14 +2210,13 @@ html {
   }
   /*End Ferra Kreu */
 
-  .consctruction-donbosko{
+  .consctruction-donbosko {
     margin-top: 10px;
     padding-bottom: 0;
   }
 
   .consctruction-donbosko-container {
     flex-direction: column;
-
   }
   .consctruction-donbosko-container-left {
     width: 100%;
@@ -2205,6 +2253,84 @@ html {
   }
   .consctruction-invest-container-right {
     display: none;
+  }
+  .food-orizking-content-center {
+    padding: 0;
+    width: 100%;
+    background-color: white;
+  }
+  .food-orizking-content-center p {
+    background-color: #fbc90b;
+    padding: 50px 20px;
+    width: 100%;
+  }
+  .food-orizking-content-center p br {
+    display: none;
+  }
+  .food-orizking-content {
+    flex-direction: column;
+  }
+  .food-orizking-content-left {
+    order: 1;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .food-orizking-content-right {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .food-orizking-content-center img {
+    position: unset;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  .food-orizking-content {
+    padding: 0;
+  }
+  .food-pastaking {
+    margin-top: 50px;
+  }
+  .food-pastaking-right img {
+    position: unset;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  .food-pastaking-container {
+    padding: 100px 0 100px;
+  }
+  .food-sheqeri {
+    margin-top: 50px;
+  }
+  .food-sheqeri-container {
+    flex-direction: column-reverse;
+  }
+  .food-sheqeri-container-left {
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .food-sheqeri-container-right {
+    width: 100%;
+  }
+  .food-meillking-container {
+    flex-direction: column-reverse;
+  }
+  .food-meillking-container-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .food-meillking-container-right {
+    width: 100%;
+    padding: 0 20px;
   }
 }
 
@@ -2463,6 +2589,87 @@ html {
   .ferra-about-tech-left div {
     margin: 0 10px;
   }
+  .food-pastaking {
+    background-size: cover;
+  }
+  .food-pastaking-container {
+    flex-direction: column;
+  }
+  .food-pastaking-left {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .food-pastaking-right {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .food-pastaking-right img {
+    max-width: 50%;
+  }
+  .food-gluten-container-bottom {
+    flex-direction: column;
+  }
+  .food-gluten-container-bottom-item-text {
+    margin-top: 20px;
+  }
+  .food-gluten-container-bottom-item {
+    margin-bottom: 20px;
+  }
+  .food-vajking {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .food-vajking-left {
+    width: 100%;
+    padding-left: 20px;
+  }
+  .food-vajking-right {
+    width: 100%;
+    justify-content: center;
+  }
+  .food-thjerreza {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .food-thjerreza-left {
+    width: 100%;
+    padding-left: 20px;
+  }
+  .food-thjerreza-right {
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .food-start-title {
+    font-size: 30px;
+  }
+  .food-start-text br {
+    display: none;
+  }
+  .food-start-text {
+    padding: 0 20px;
+  }
+  .food-orizking-title {
+    font-size: 30px;
+  }
+  .food-pastaking-left-title {
+    font-size: 30px;
+  }
+  .food-gluten-container-top-title {
+    font-size: 30px;
+  }
+  .food-sheqeri-container-right-title {
+    font-size: 30px;
+  }
+  .food-vajking-left-title {
+    font-size: 30px;
+  }
+  .food-thjerreza-left-title {
+    font-size: 30px;
+  }
+  .food-meillking-container-right-title {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -2639,46 +2846,46 @@ html {
   .ferra-about-ekipi-slider-item-subtitle {
     font-size: 14px;
   }
-  .consctruction-donbosko-container-right img{
+  .consctruction-donbosko-container-right img {
     max-width: 100%;
   }
-  .consctruction-projekt-left img{
+  .consctruction-projekt-left img {
     max-width: 100%;
   }
-  .consctruction-invest-container-galeri{
+  .consctruction-invest-container-galeri {
     padding: 0 20px 50px;
   }
-  .consctruction-projekt{
+  .consctruction-projekt {
     margin-bottom: 50px;
   }
-  .consctruction-start-content{
+  .consctruction-start-content {
     bottom: 10px;
   }
-  .consctruction-start-content-title{
+  .consctruction-start-content-title {
     font-size: 24px;
   }
-  .consctruction-start-content-subtitle{
+  .consctruction-start-content-subtitle {
     font-size: 18px;
   }
-  .consctruction-donbosko-container-left-title{
+  .consctruction-donbosko-container-left-title {
     font-size: 32px;
   }
-  .consctruction-projekt-right-title{
+  .consctruction-projekt-right-title {
     font-size: 32px;
   }
-  .consctruction-invest-container-left-title{
+  .consctruction-invest-container-left-title {
     font-size: 32px;
   }
   .consctruction-projekt-right-info p {
     font-size: 16px;
   }
-  .consctruction-start-content-text br{
-      display: none;
+  .consctruction-start-content-text br {
+    display: none;
   }
-  .consctruction-start-content-text{
+  .consctruction-start-content-text {
     font-size: 14px;
   }
-  .consctruction-start{
+  .consctruction-start {
     margin-top: 40px;
   }
 }
@@ -2833,7 +3040,7 @@ html {
   .ferra-about-shortinfo {
     margin-top: 80px;
   }
-  .consctruction-projekt-right-info{
+  .consctruction-projekt-right-info {
     flex-direction: column;
     align-items: flex-start;
   }
@@ -2845,16 +3052,16 @@ html {
   .consctruction-projekt-right-info p svg {
     margin-right: 20px;
   }
-  .consctruction-start{
+  .consctruction-start {
     margin-top: 80px;
   }
-  .consctruction-start-content-subtitle{
+  .consctruction-start-content-subtitle {
     font-size: 16px;
   }
-  .consctruction-start-content-title{
+  .consctruction-start-content-title {
     font-size: 18px;
   }
-  .consctruction-donbosko-container-left-info{
+  .consctruction-donbosko-container-left-info {
     flex-direction: column;
     align-items: flex-start;
   }
@@ -2865,5 +3072,14 @@ html {
   }
   .consctruction-donbosko-container-left-info p svg {
     margin-right: 20px;
+  }
+  .consctruction-invest-container-galeri div:nth-child(2) {
+    margin: 0 10px;
+  }
+  .food-orizking-content-right-title {
+    font-size: 20px;
+  }
+  .food-orizking-content-left-title {
+    font-size: 20px;
   }
 }

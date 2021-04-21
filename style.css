@@ -52,7 +52,7 @@ html {
   font-size: 26px;
 }
 .fs-28 {
-    font-size: 28px;
+  font-size: 28px;
 }
 .fs-30 {
   font-size: 30px;
@@ -107,11 +107,11 @@ html {
 /* .label{
     margin-bottom: 15px;
 } */
-.side-menu{
-    display: none;
+.side-menu {
+  display: none;
 }
-.side-menu-opa{
-    display: none;
+.side-menu-opa {
+  display: none;
 }
 /* Utitlities */
 
@@ -191,8 +191,8 @@ html {
   justify-content: center;
   align-items: center;
 }
-.header-nav-mobile{
-    display: none;
+.header-nav-mobile {
+  display: none;
 }
 .header-nav a {
   text-decoration: none;
@@ -536,7 +536,6 @@ html {
   align-items: flex-end;
   padding-bottom: 40px;
   padding-left: 40px;
-
 }
 .pastaking-section-content-bottom-pasta-item-content p {
   color: #fbc90b;
@@ -1320,13 +1319,14 @@ html {
   display: flex;
   margin-top: 100px;
   margin-bottom: -100px;
-  padding-bottom: 150px;
+  padding: 0 20px 150px;
 }
-.consctruction-invest-container-galeri img:nth-child(2) {
+.consctruction-invest-container-galeri div:nth-child(2) {
   margin: 0 40px;
 }
-.consctruction-invest-container-galeri img {
+.consctruction-invest-container-galeri div {
   box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+  display: flex;
 }
 /*End of Ferra Construction */
 
@@ -1811,452 +1811,509 @@ html {
 /* End of Ferra Food */
 
 @media (max-width: 1600px) {
-        /*Start Ferra Kreu */
-    .ferra-teknlogji-left{
-        width: 50%;
-        margin-left: 0;
-    }
-    .ferra-teknlogji-right{
-        margin-top: 0;
-        padding-left: 0px;
-        padding: 0 50px; 
-    }
+  /*Start Ferra Kreu */
+  .ferra-teknlogji-left {
+    width: 50%;
+    margin-left: 0;
+  }
+  .ferra-teknlogji-right {
+    margin-top: 0;
+    padding-left: 0px;
+    padding: 0 50px;
+  }
 
-    .ferra-produkte-slider-item:nth-child(2){
-        margin: 0 20px;
-    }
-    .ferra-construction-content-left{
-        margin-right: 0;
-    }
-    .ferra-construction-content-right{
-        margin-bottom: 0;
-        align-items: center;
-        justify-content: space-around;
-    }
-        /*End Ferra Kreu */
+  .ferra-produkte-slider-item:nth-child(2) {
+    margin: 0 20px;
+  }
+  .ferra-construction-content-left {
+    margin-right: 0;
+  }
+  .ferra-construction-content-right {
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: space-around;
+  }
+  /*End Ferra Kreu */
 
-        .blog-items-posts{
-            padding-left: 20px;
-        }
-        .blog-items-widgets{
-            padding-right: 20px;
-        }
+  .blog-items-posts {
+    padding-left: 20px;
+  }
+  .blog-items-widgets {
+    padding-right: 20px;
+  }
 
+  .consctruction-donbosko-container {
+    padding: 0 20px;
+  }
+  .consctruction-projekt {
+    padding: 0 20px;
+  }
+  .consctruction-invest-container {
+    padding: 0 20px;
+  }
 }
-@media (max-width: 1500px) { 
-    .pastaking-section-content-bottom-pasta{
-        margin-right: 0;
-    }
-    .pastaking-section-content-bottom-pasta-item{
-        margin:  0 0  10px;
-    }
+@media (max-width: 1500px) {
+  .pastaking-section-content-bottom-pasta {
+    margin-right: 0;
+  }
+  .pastaking-section-content-bottom-pasta-item {
+    margin: 0 0 10px;
+  }
 
-    .ferra-about-vizioni-right{
-      padding-right: 50px;
-      padding-left: 50px;
-    }
-    .ferra-about-ceo{
-      margin-bottom: 0px;
-    }
+  .ferra-about-vizioni-right {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .ferra-about-ceo {
+    margin-bottom: 0px;
+  }
 
-    .ferra-about-ceo-container-right{
-      padding-right: 50px;
-    }
-    .ferra-about-ceo-container-right-content{
-      position: unset;
-    }
-    .ferra-about-ceo-container-left{
-      padding-right: 50px;
-      padding-left: 50px;
-      justify-content: center;
-    }
-    .ferra-about-tech{
-      margin-top: 20px;
-    }
-    .ferra-about-tech-right{
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-    .ferra-about-partneret-sliders{
-      padding: 0 20px;
-    }
-    .ferra-about-ekipi-slider{
-      padding: 0 20px;
-    }
-    .ferra-about-ekipi-slider-item:nth-child(2){
-      margin-left: 15px;
-      margin-right: 10px;
-    }
-    .ferra-about-ekipi-slider-item:nth-child(3){
-      margin-left: 10px;
-      margin-right: 15px;
-    }
+  .ferra-about-ceo-container-right {
+    padding-right: 50px;
+  }
+  .ferra-about-ceo-container-right-content {
+    position: unset;
+  }
+  .ferra-about-ceo-container-left {
+    padding-right: 50px;
+    padding-left: 50px;
+    justify-content: center;
+  }
+  .ferra-about-tech {
+    margin-top: 20px;
+  }
+  .ferra-about-tech-right {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .ferra-about-partneret-sliders {
+    padding: 0 20px;
+  }
+  .ferra-about-ekipi-slider {
+    padding: 0 20px;
+  }
+  .ferra-about-ekipi-slider-item:nth-child(2) {
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  .ferra-about-ekipi-slider-item:nth-child(3) {
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  .consctruction-invest-container-left {
+    padding-right: 30px;
+  }
 }
 @media (max-width: 1400px) {
-        /*Start Ferra Kreu */
-        .ferra-teknlogji-right-title{
-            font-size: 32px;
-            margin-bottom: 5px;
-        }
-        .ferra-teknlogji-right-btn{
-            margin-top: 20px;
-            font-size: 15px;
-        }
-    .ferra-construction{
-        flex-direction: column;
-    }
-    .ferra-construction-content{
-        height: auto;
-        position: relative;
-        flex-direction: column;
-    }
-    .ferra-construction-content-left{
-        width: 100%;
-        margin: 0;
-        padding-bottom: 40px;
-    }
-    .ferra-construction-content-right{
-        width: 100%;
-        margin-top: 20px;
+  /*Start Ferra Kreu */
+  .ferra-teknlogji-right-title {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+  .ferra-teknlogji-right-btn {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .ferra-construction {
+    flex-direction: column;
+  }
+  .ferra-construction-content {
+    height: auto;
+    position: relative;
+    flex-direction: column;
+  }
+  .ferra-construction-content-left {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+  .ferra-construction-content-right {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .ferra-ferma {
+    flex-direction: column-reverse;
+    padding: 0 40px;
+  }
+  .ferra-ferma-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 20px;
+  }
 
-    }
-    .ferra-ferma{
-        flex-direction: column-reverse;
-        padding: 0 40px;
-    }
-    .ferra-ferma-left{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        margin-top: 20px;
-    }
+  .ferma2-foto {
+    position: absolute;
+    left: 200px;
+    bottom: -100px;
+  }
+  .ferra-ferma-right {
+    width: 100%;
+    padding: 0;
+    align-self: center;
+  }
+  .ferra-ferma-right-ilustration {
+    justify-content: space-evenly;
+  }
+  .ferra-ferma-right-link {
+    align-self: center;
+  }
+  .pastaking-section-content-bottom-img {
+    display: none;
+  }
+  .pastaking-section-content-bottom-pasta {
+    background-image: url("assets/images/pasta-king-back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+  }
+  .pastaking-section-content-bottom {
+    padding: 0px;
+  }
+  .pastaking-section-content-bottom-pasta {
+    flex-direction: row;
+  }
+  .pastaking-section-content-bottom-pasta-item:nth-child(2) {
+    margin: 0 20px;
+  }
+  .pastaking-section-content-top-text {
+    margin-bottom: 20px;
+  }
+  .pastaking-section-content-bottom {
+    margin-top: 0;
+  }
+  .orizking-section-content-bottom {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .orizking-section-content-bottom-item {
+    max-width: 300px;
+  }
+  .orizking-section-content-bottom-item:nth-child(2) {
+    margin: 0 30px;
+  }
+  .ferra-bashkepuno-content-right-form {
+    padding: 20px;
+    margin-top: 100px;
+    box-shadow: 0 10px 10px rgb(1 1 1 / 20%);
+  }
+  .ferra-bashkepuno-content-left {
+    padding-left: 20px;
+  }
+  /*End Ferra Kreu */
 
-    .ferma2-foto{
-            position: absolute;
-            left: 200px;
-            bottom: -100px;
-    }
-    .ferra-ferma-right{
-        width: 100%;
-        padding: 0;
-        align-self: center;
-    }
-    .ferra-ferma-right-ilustration{
-        justify-content: space-evenly;
-    }
-    .ferra-ferma-right-link{
-        align-self: center;
-    }
-    .pastaking-section-content-bottom-img{
-        display: none;
-    }
-    .pastaking-section-content-bottom-pasta{
-        background-image: url('assets/images/pasta-king-back.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 100px 0;
-    }
-    .pastaking-section-content-bottom{
-        padding: 0px;
-    }
-    .pastaking-section-content-bottom-pasta{
-        flex-direction: row;
-    }
-    .pastaking-section-content-bottom-pasta-item:nth-child(2){
-        margin: 0 20px;
-    }
-    .pastaking-section-content-top-text{
-        margin-bottom: 20px;
-    }
-    .pastaking-section-content-bottom{
-        margin-top: 0;
-    }
-    .orizking-section-content-bottom{
-        justify-content: center;
-        margin-top: 20px;
-    }
-    .orizking-section-content-bottom-item{
-        max-width: 300px;
-    }
-    .orizking-section-content-bottom-item:nth-child(2){
-        margin: 0 30px;
-    }
-    .ferra-bashkepuno-content-right-form{
-        padding: 20px;
-        margin-top: 100px;
-        box-shadow: 0 10px 10px rgb(1 1 1 / 20%);
-    }
-    .ferra-bashkepuno-content-left{
-        padding-left: 20px;
+  .ferra-about-tech {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 
-    }
-        /*End Ferra Kreu */
+  .ferra-about-tech-container {
+    flex-direction: column-reverse;
+  }
+  .ferra-about-tech-left {
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  .ferra-about-tech-left img {
+    margin: 0 50px;
+  }
+  .ferra-about-tech-right {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 
-        .ferra-about-tech{
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center;
-        }
-
-        .ferra-about-tech-container{
-          flex-direction: column-reverse;
-        }
-        .ferra-about-tech-left{
-          width: 100%;
-          margin-top: 40px;
-          justify-content: center;
-        }
-        .ferra-about-tech-left img {
-          margin: 0 50px;
-        }
-        .ferra-about-tech-right{
-          width: 100%;
-          padding-right: 20px;
-          padding-left: 20px;
-        }
+  .consctruction-donbosko-container-left {
+    padding-right: 20px;
+  }
+  .consctruction-projekt-right {
+    padding-left: 20px;
+  }
 }
 
+@media (max-width: 1200px) {
+  /*Start Ferra Kreu */
+  .ferra-teknlogji {
+    padding: 0 20px;
+    margin-top: 40px;
+  }
+  .ferra-teknlogji-right-btn {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .ferra-teknlogji-right-text {
+    font-size: 14px;
+  }
+  .ferra-teknlogji-right {
+    padding: 0 20px;
+  }
+  .ferra-construction-content {
+    flex-direction: column;
+  }
+  .ferra-construction-content-left {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+  .ferra-construction-content-right {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .ferra-bashkepuno {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .ferra-bashkepuno img {
+    display: none;
+  }
+  .ferra-bashkepuno-content {
+    position: relative;
+    height: auto;
+    flex-direction: column;
+    background-image: url("assets/images/ferra-collab.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+  }
+  .ferra-bashkepuno-content-left {
+    width: 100%;
 
+    padding: 100px 50px;
+  }
 
-@media  (max-width: 1200px){
+  .ferra-bashkepuno-content-right {
+    width: 100%;
+  }
+  .ferra-ferma {
+    flex-direction: column-reverse;
+    padding: 0 40px;
+  }
+  .ferra-ferma-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 20px;
+  }
 
+  .ferma2-foto {
+    position: absolute;
+    left: 200px;
+    bottom: -100px;
+  }
+  .ferra-ferma-right {
+    width: 100%;
+    padding: 0;
+    align-self: center;
+  }
+  .ferra-ferma-right-ilustration {
+    justify-content: space-evenly;
+  }
+  .ferra-ferma-right-link {
+    align-self: center;
+  }
+  .orizking-section-content-top {
+    justify-content: flex-start;
+    padding-left: 100px;
+  }
+  .orizking-section-content-bottom-item:nth-child(2) {
+    margin: 0 20px;
+  }
+  .ferra-blog {
+    margin-bottom: 50px;
+    padding: 0 20px;
+  }
+  .ferra-blog-items-item {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 10px rgba(1, 1, 1, 0.2);
+  }
+  .ferra-blog-items-item:nth-child(2) {
+    margin: 0 20px;
+  }
+  .ferra-blog-items-item-content {
+    position: unset;
+    width: 100%;
+    margin: 0;
+    box-shadow: unset;
+  }
+  .orizking-section-content-top-modal {
+    width: 50%;
+  }
+  .orizking-section-content-bottom-item {
+    max-width: 250px;
+  }
+  .orizking-section-content-top-modal-title {
+    font-size: 32px;
+  }
+  .ferra-blog {
+    margin-top: 50px;
+  }
+  .pastaking-section-content-bottom-pasta-item-content p {
+    font-size: 20px;
+  }
+  .ferra-construction-content-right img {
+    display: none;
+  }
+  /*End Ferra Kreu */
 
-    /*Start Ferra Kreu */
-    .ferra-teknlogji{
-        padding: 0 20px;
-        margin-top: 40px;
-    }
-    .ferra-teknlogji-right-btn{
-        margin-top: 10px;
-        font-size: 15px;
-    }
-    .ferra-teknlogji-right-text{
-        font-size: 14px;
-    }
-    .ferra-teknlogji-right{
-        padding: 0 20px
-    }
-    .ferra-construction-content{
-        flex-direction: column;
-    }
-    .ferra-construction-content-left{
-        width: 100%;
-        margin: 0;
-        padding-bottom: 40px;
-    }
-    .ferra-construction-content-right{
-        width: 100%;
-        margin-top: 40px;
-    }
-    .ferra-bashkepuno{
-        flex-direction: column;
-        margin-top: 0;
-    }
-    .ferra-bashkepuno img {
-        display: none;
-    }
-    .ferra-bashkepuno-content{
-        position: relative;
-        height: auto;
-        flex-direction: column;
-        background-image: url('assets/images/ferra-collab.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding-bottom: 50px;
-    }
-    .ferra-bashkepuno-content-left{
-        width: 100%;
+  .consctruction-donbosko{
+    margin-top: 10px;
+    padding-bottom: 0;
+  }
 
-        padding: 100px 50px;
-    }
+  .consctruction-donbosko-container {
+    flex-direction: column;
 
-    .ferra-bashkepuno-content-right{
-        width: 100%;
-    }
-    .ferra-ferma{
-        flex-direction: column-reverse;
-        padding: 0 40px;
-    }
-    .ferra-ferma-left{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        margin-top: 20px;
-    }
-
-    .ferma2-foto{
-            position: absolute;
-            left: 200px;
-            bottom: -100px;
-    }
-    .ferra-ferma-right{
-        width: 100%;
-        padding: 0;
-        align-self: center;
-    }
-    .ferra-ferma-right-ilustration{
-        justify-content: space-evenly;
-    }
-    .ferra-ferma-right-link{
-        align-self: center;
-    }
-    .orizking-section-content-top{
-        justify-content: flex-start;
-        padding-left: 100px;
-    }
-    .orizking-section-content-bottom-item:nth-child(2){
-            margin: 0 20px;
-    }
-    .ferra-blog{
-        margin-bottom: 50px;
-        padding: 0 20px;
-    }
-    .ferra-blog-items-item{
-        display: flex;
-        flex-direction: column;
-        box-shadow: 0 4px 10px rgba(1,1,1,.2);
-    }
-    .ferra-blog-items-item:nth-child(2){
-        margin: 0 20px;
-    }
-    .ferra-blog-items-item-content{
-        position: unset;
-        width: 100%;
-        margin: 0;
-        box-shadow: unset;
-    }
-    .orizking-section-content-top-modal{
-        width: 50%;
-    }
-    .orizking-section-content-bottom-item{
-        max-width: 250px;
-    }
-    .orizking-section-content-top-modal-title{
-        font-size: 32px;
-    }
-    .ferra-blog{
-        margin-top: 50px;
-    }
-    .pastaking-section-content-bottom-pasta-item-content p{
-        font-size: 20px;
-    }
-    .ferra-construction-content-right img {
-        display: none;
-    }
-    /*End Ferra Kreu */
+  }
+  .consctruction-donbosko-container-left {
+    width: 100%;
+  }
+  .consctruction-donbosko-container-right {
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .consctruction-donbosko-container-right img {
+    max-width: 50%;
+  }
+  .consctruction-projekt {
+    flex-direction: column-reverse;
+    margin-top: 80px;
+  }
+  .consctruction-projekt-left {
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .consctruction-projekt-left img {
+    max-width: 50%;
+  }
+  .consctruction-projekt-right {
+    width: 100%;
+  }
+  .consctruction-invest-container {
+    flex-direction: column;
+  }
+  .consctruction-invest-container-left {
+    width: 100%;
+    padding-right: 0;
+  }
+  .consctruction-invest-container-right {
+    display: none;
+  }
 }
 
-@media (min-width: 1000px) and (max-width: 1100px){
-
-    .ferra-teknlogji{
-        flex-direction: column-reverse;
-        padding:  0 20px;
-    }
-    .ferra-teknlogji-left{
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        margin-top: 20px;
-    }
-    .ferra-teknlogji-left img{
-            max-width: 70%;
-    }
-    .ferra-teknlogji-right{
-        width: 100%;
-        padding: 0 ;
-        margin: 0;
-    }
-    .ferra-teknlogji-right-btn{
-        align-self: center;
-        margin-top: 40px;
-    }
-    .orizking-section-content-top-modal{
-        margin-top: 10px;
-    }
-    .orizking-section-content-bottom{
-        margin-top: 10px;
-    }
-    .header-nav a{
-        font-size: 16px;
-    }
-    .ferra-about-shortinfo{
-      align-items: flex-end;
-    }
-    .ferra-about-shortinfo-content{
-      margin-bottom: 50px;
-    }
-    .ferra-about-vizioni-right-title{
-      font-size: 24px;
-    }
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .ferra-teknlogji {
+    flex-direction: column-reverse;
+    padding: 0 20px;
+  }
+  .ferra-teknlogji-left {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+  }
+  .ferra-teknlogji-left img {
+    max-width: 70%;
+  }
+  .ferra-teknlogji-right {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .ferra-teknlogji-right-btn {
+    align-self: center;
+    margin-top: 40px;
+  }
+  .orizking-section-content-top-modal {
+    margin-top: 10px;
+  }
+  .orizking-section-content-bottom {
+    margin-top: 10px;
+  }
+  .header-nav a {
+    font-size: 16px;
+  }
+  .ferra-about-shortinfo {
+    align-items: flex-end;
+  }
+  .ferra-about-shortinfo-content {
+    margin-bottom: 50px;
+  }
+  .ferra-about-vizioni-right-title {
+    font-size: 24px;
+  }
 }
 
-@media  (max-width: 999px){
-    .side-menu{
-        display: flex;
-        background-color: rgba(209, 32, 38, .9);
-        position: fixed;
-        z-index: 102;
-        top: 0;
-        right: 0;
-        width: 60%;
-        height: 100%;
-        transform: translateX(1000%);
-        transition: all .4s ease;
-        overflow: auto;
-        flex-direction: column;
-        padding: 40px;
-    }
-    .side-menu-close-div{
-        align-self: flex-end;
-    }
-    .close-side-menu{
-        width: 45px;
-        height: 45px; 
-    }
-    .side-menu-links{
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-    }
+@media (max-width: 999px) {
+  .side-menu {
+    display: flex;
+    background-color: rgba(209, 32, 38, 0.9);
+    position: fixed;
+    z-index: 102;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    transform: translateX(1000%);
+    transition: all 0.4s ease;
+    overflow: auto;
+    flex-direction: column;
+    padding: 40px;
+  }
+  .side-menu-close-div {
+    align-self: flex-end;
+  }
+  .close-side-menu {
+    width: 45px;
+    height: 45px;
+  }
+  .side-menu-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
 
-    .side-menu-links-link{
-        color: white;
-        text-decoration: none;
-        margin-bottom: 20px;
-    }
-    .side-menu-socials{
-        align-self: center;
-       margin-top: 230px;
-    }
-    .side-menu-socials a {
-        text-decoration: none;
-    
-    }
-    .side-menu-socials a:nth-child(2){
-        margin: 0 20px;
-    }
-    .side-menu-opa{
-        display: block;
-        position: fixed;
-        height: 100%;
-        width: 100%;
-        top: 0;
-        left: 0;
-        background-color: rgba(1,1,1 ,0);
-        z-index: 101;
-        transform: translateX(-1000%);
-    }
-    .side-menu-open {
-        transform: translateX(0);
-    }
-    .header-nav {
-        display: none;
-    }
-.header-nav-mobile{
+  .side-menu-links-link {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  .side-menu-socials {
+    align-self: center;
+    margin-top: 230px;
+  }
+  .side-menu-socials a {
+    text-decoration: none;
+  }
+  .side-menu-socials a:nth-child(2) {
+    margin: 0 20px;
+  }
+  .side-menu-opa {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(1, 1, 1, 0);
+    z-index: 101;
+    transform: translateX(-1000%);
+  }
+  .side-menu-open {
+    transform: translateX(0);
+  }
+  .header-nav {
+    display: none;
+  }
+  .header-nav-mobile {
     width: 100%;
     background-color: #fbc90b;
     height: 41px;
@@ -2264,478 +2321,549 @@ html {
     justify-content: center;
     align-items: center;
     position: relative;
-}
+  }
 
-.header-nav-mobile svg{
+  .header-nav-mobile svg {
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translate(-50%,-50%);
-}
-.ferra-info{
+    transform: translate(-50%, -50%);
+  }
+  .ferra-info {
     height: 40px;
-}
-.ferra-info-social{
+  }
+  .ferra-info-social {
     display: none;
-}
-.ferra-teknlogji{
+  }
+  .ferra-teknlogji {
     flex-direction: column-reverse;
-}
-.ferra-teknlogji-left{
+  }
+  .ferra-teknlogji-left {
     width: 100%;
     margin-top: 20px;
-}
-.ferra-teknlogji-right{
+  }
+  .ferra-teknlogji-right {
     width: 100%;
     padding: 0;
-}
-.orizking-section-content-top-modal{
+  }
+  .orizking-section-content-top-modal {
     width: 90%;
-}
-.orizking-section-content-bottom-item-title{
+  }
+  .orizking-section-content-bottom-item-title {
     font-size: 24px;
-}
-.footer{
-    background-image:none;
+  }
+  .footer {
+    background-image: none;
     background-color: #202020;
-}
-.footer-content{
+  }
+  .footer-content {
     flex-direction: column;
     align-items: center;
     padding: 30px 0;
-
-}
-.footer-content-item {
+  }
+  .footer-content-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 30px 0;
-}
-.home-video{
+  }
+  .home-video {
     align-items: flex-end;
-}
-.home-video-texts-title{
+  }
+  .home-video-texts-title {
     font-size: 40px;
-}
-.home-video-texts-slogan{
+  }
+  .home-video-texts-slogan {
     font-size: 18px;
-}
-.home-video-texts{
+  }
+  .home-video-texts {
     bottom: 20px;
-}
-.ferra-produkte-slider-item-content{
+  }
+  .ferra-produkte-slider-item-content {
     padding: 0 10px 20px;
-}
-.ferra-produkte-slider-item-content-title{
+  }
+  .ferra-produkte-slider-item-content-title {
     font-size: 18px;
     margin-bottom: 10px;
-}
-.ferra-produkte-slider-item-content-text{
+  }
+  .ferra-produkte-slider-item-content-text {
     margin-bottom: 10px;
-}
-.ferra-produkte-slider-item-content-link{
-    margin-bottom: 5px;   
-}
-.ferra-produkte-slider-item-content-link svg{
+  }
+  .ferra-produkte-slider-item-content-link {
+    margin-bottom: 5px;
+  }
+  .ferra-produkte-slider-item-content-link svg {
     margin-left: 1px;
-}
-.orizking-section-img{
+  }
+  .orizking-section-img {
     display: none;
-}
-.orizking-section-content-top{
-    background-image: url('assets/images/oriz-king-back.jpg');
+  }
+  .orizking-section-content-top {
+    background-image: url("assets/images/oriz-king-back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 100px 0;
-}
-.ferra-blog-items-item-content-title{
+  }
+  .ferra-blog-items-item-content-title {
     font-size: 16px;
-}
-.ferra-blog-items-item-content-text{
+  }
+  .ferra-blog-items-item-content-text {
     font-size: 15px;
-}
-.ferra-blog-items-item-content-link{
+  }
+  .ferra-blog-items-item-content-link {
     font-size: 14px;
     padding: 5px 15px;
     margin-top: 20px;
-}
-.blog-items{
+  }
+  .blog-items {
     flex-direction: column;
-}
-.blog-items-posts{
+  }
+  .blog-items-posts {
     width: 100%;
     padding: 0 20px;
-}
-.blog-items-posts-pagination{
+  }
+  .blog-items-posts-pagination {
     justify-content: center;
-}
-.blog-items-widgets{
+  }
+  .blog-items-widgets {
     align-items: center;
     max-width: 100%;
     width: 100%;
     margin-top: 50px;
     padding: 0 20px;
-}
-.blog-start-title{
+  }
+  .blog-start-title {
     bottom: 10px;
     font-size: 30px;
+  }
+
+  .ferra-about-vizioni {
+    flex-direction: column-reverse;
+  }
+  .ferra-about-vizioni-right {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .ferra-about-vizioni-left {
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 40px;
+  }
+  .ferra-about-tech-left {
+    padding: 0 50px;
+    margin-bottom: -200px;
+  }
+  .ferra-about-tech-left img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0 10px;
+  }
+  .ferra-about-tech-left div {
+    margin: 0 10px;
+  }
 }
 
-.ferra-about-vizioni{
-  flex-direction: column-reverse;
-}
-.ferra-about-vizioni-right{
-  width: 100%;
-  padding: 0 20px;
-}
-.ferra-about-vizioni-left{
-  width: 100%;
-  padding: 0 20px;
-  margin-top: 40px;
-}
-.ferra-about-tech-left{
-  padding: 0 50px;
-  margin-bottom: -200px;
-}
-.ferra-about-tech-left img{
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-  margin : 0 10px;
-}
-.ferra-about-tech-left div{
-  margin: 0 10px;
+@media (max-width: 750px) {
+  .home-video {
+    margin-top: 50px;
+  }
+  .ferra-info {
+    justify-content: space-between;
+  }
+  .ferra-info-phone {
+    justify-content: flex-start;
+    padding-left: 10px;
+  }
+  .ferra-info-phone svg {
+    width: 20px;
+    height: 20px;
+  }
+  .ferra-info-social-mail {
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+  .ferra-info-phone a {
+    font-size: 14px;
+  }
+  .ferra-info-mail a {
+    font-size: 14px;
+  }
+  .ferra-info-mail {
+    margin-left: 0;
+  }
+  .ferra-info-mail svg {
+    width: 28px;
+    height: 18px;
+  }
+  .home-video-texts-title {
+    font-size: 24px;
+  }
+  .ferma2-foto {
+    display: none;
+  }
+  .ferra-construction {
+    margin-top: 50px;
+  }
+  .ferra-construction-content-left-title {
+    font-size: 32px;
+  }
+  .ferra-produkte-slider-item:nth-child(odd) {
+    display: none;
+  }
+  .ferra-produkte-slider {
+    justify-content: center;
+  }
+  .ferra-blog-items-item:nth-child(odd) {
+    display: none;
+  }
+  .ferra-blog-items {
+    justify-content: center;
+  }
+  .ferra-construction-content-left-text {
+    margin: 10px 0;
+  }
+  .orizking-section-content-bottom {
+    margin-top: -50px;
+    padding: 0 20px;
+  }
+  .ferra-bashkepuno-content-left-title {
+    font-size: 30px;
+  }
+  .ferra-bashkepuno-content-left-text {
+    padding-right: 0;
+  }
+  .ferra-bashkepuno-content-left-text br {
+    display: none;
+  }
+  .ferra-bashkepuno-content-left-title br {
+    display: none;
+  }
+  .pastaking-section-content-bottom-pasta {
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20px;
+  }
+  .pastaking-section-content-bottom-pasta-item {
+    max-width: 300px;
+  }
+  .pastaking-section-content-bottom-pasta-item:nth-child(2) {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .pastaking-section-content-bottom-pasta-item {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .ferra-foto-seksion-title {
+    font-size: 40px;
+  }
+  .pastaking-section-content-top-title {
+    font-size: 40px;
+  }
+  .ferra-ferma-right-title {
+    font-size: 40px;
+  }
+  .ferra-bashkepuno-content-left {
+    padding: 0 20px;
+  }
+  .pastaking-section-content-top {
+    margin-top: 50px;
+  }
+  .side-menu-links-link {
+    font-size: 20px;
+  }
+  .blog-start {
+    margin-top: 40px;
+  }
+  .blog-items-posts-post-title {
+    font-size: 20px;
+  }
+  .blog-items-posts-post-btn {
+    padding: 5px 20px;
+  }
+  .blog-items-posts-post-text {
+    margin-top: 10px;
+  }
+  .blog-items-posts-post {
+    margin-bottom: 40px;
+  }
+  .blog-items {
+    margin-top: 20px;
+  }
+  .ferra-about-ceo-container {
+    flex-direction: column-reverse;
+  }
+  .ferra-about-ceo-container-right {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .ferra-about-ceo-container-left {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    align-items: center;
+  }
+  .ferra-about-shortinfo {
+    margin-top: 40px;
+  }
+  .ferra-about-shortinfo-content {
+    bottom: 10px;
+  }
+  .ferra-about-shortinfo-content-text {
+    font-size: 14px;
+  }
+  .ferra-about-shortinfo-content-title {
+    font-size: 32px;
+  }
+  .ferra-about-shortinfo-content-subtitle span {
+    font-size: 20px;
+  }
+  .ferra-about-vizioni-right-title {
+    font-size: 32px;
+  }
+  .ferra-about-tech-right-title {
+    font-size: 32px;
+  }
+  .ferra-about-partneret-title {
+    font-size: 32px;
+  }
+  .ferra-about-ekipi-title {
+    font-size: 32px;
+  }
+  .ferra-about-ekipi-slider-item-title {
+    font-size: 18px;
+  }
+  .ferra-about-ekipi-slider-item-subtitle {
+    font-size: 14px;
+  }
+  .consctruction-donbosko-container-right img{
+    max-width: 100%;
+  }
+  .consctruction-projekt-left img{
+    max-width: 100%;
+  }
+  .consctruction-invest-container-galeri{
+    padding: 0 20px 50px;
+  }
+  .consctruction-projekt{
+    margin-bottom: 50px;
+  }
+  .consctruction-start-content{
+    bottom: 10px;
+  }
+  .consctruction-start-content-title{
+    font-size: 24px;
+  }
+  .consctruction-start-content-subtitle{
+    font-size: 18px;
+  }
+  .consctruction-donbosko-container-left-title{
+    font-size: 32px;
+  }
+  .consctruction-projekt-right-title{
+    font-size: 32px;
+  }
+  .consctruction-invest-container-left-title{
+    font-size: 32px;
+  }
+  .consctruction-projekt-right-info p {
+    font-size: 16px;
+  }
+  .consctruction-start-content-text br{
+      display: none;
+  }
+  .consctruction-start-content-text{
+    font-size: 14px;
+  }
+  .consctruction-start{
+    margin-top: 40px;
+  }
 }
 
-}
+@media (max-width: 500px) {
+  .ferra-ferma-left img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  .ferra-ferma-right-ilustration {
+    flex-direction: column;
+  }
+  .ferra-ferma-right-ilustration p {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .ferra-ferma-right-ilustration p br {
+    display: none;
+  }
+  .ferra-ferma-right-ilustration p svg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .ferra-ferma-right-link {
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+  .ferra-bashkepuno-content-right-form {
+    width: 100%;
+  }
 
+  .ferra-bashkepuno-content-right-form-emri {
+    width: 100%;
+  }
+  .ferra-bashkepuno-content-right-form-emri div:first-child input {
+    margin-right: 5px;
+  }
+  .ferra-bashkepuno-content-right-form-emri {
+    flex-direction: column;
+  }
+  .ferra-bashkepuno-content-right-form-emri div {
+    width: 100%;
+  }
+  .ferra-bashkepuno-content-right-form-emri input {
+    width: 100%;
+  }
+  .ferra-construction-content-left-subtitle {
+    font-size: 16px;
+  }
 
-@media  (max-width: 750px){
-    .home-video{
-        margin-top: 50px;
-    }
-    .ferra-info{
-        justify-content: space-between;
-    }
-    .ferra-info-phone{
-        justify-content: flex-start;
-        padding-left: 10px;
-    }
-    .ferra-info-phone svg {
-        width: 20px;
-        height: 20px;
-    }
-    .ferra-info-social-mail{
-        justify-content: flex-end;
-        padding-right: 10px;
-    }
-    .ferra-info-phone a{
-        font-size: 14px;
-    }
-    .ferra-info-mail a{
-        font-size: 14px;
-    }
-    .ferra-info-mail{
-        margin-left: 0;
-    }
-    .ferra-info-mail svg{
-        width: 28px;
-        height: 18px;
-    }
-    .home-video-texts-title{
-        font-size: 24px;
-    }
-    .ferma2-foto{
-        display: none;
-    }
-    .ferra-construction{
-        margin-top: 50px;
-    }
-    .ferra-construction-content-left-title{
-            font-size: 32px;
-    }
-    .ferra-produkte-slider-item:nth-child(odd){
-        display: none;
-    }
-    .ferra-produkte-slider{
-        justify-content: center;
-    }
-    .ferra-blog-items-item:nth-child(odd){
-        display: none;
-    }
-    .ferra-blog-items{
-        justify-content: center;
-    }
-    .ferra-construction-content-left-text{
-        margin: 10px 0;
-    }
-    .orizking-section-content-bottom{
-        margin-top: -50px;
-        padding: 0 20px;
-    }
-    .ferra-bashkepuno-content-left-title{
-        font-size: 30px;
-    }
-    .ferra-bashkepuno-content-left-text{
-        padding-right: 0;
-    }
-    .ferra-bashkepuno-content-left-text br {
-        display: none;
-    }
-    .ferra-bashkepuno-content-left-title br {
-        display: none;
-    }
-    .pastaking-section-content-bottom-pasta{
-        flex-direction: column;
-        width: 100%;
-        padding-left: 20px;
-    }
-    .pastaking-section-content-bottom-pasta-item{
-        max-width: 300px;
-    }
-    .pastaking-section-content-bottom-pasta-item:nth-child(2){
-        margin: 0;
-        margin-bottom: 20px;
-    }
-    .pastaking-section-content-bottom-pasta-item{
-        margin: 0;
-        margin-bottom: 20px;
-    }
-    .ferra-foto-seksion-title{
-        font-size: 40px;
-    }
-    .pastaking-section-content-top-title{
-        font-size: 40px;
-    }
-    .ferra-ferma-right-title{
-        font-size: 40px;
-    }
-    .ferra-bashkepuno-content-left{
-        padding: 0 20px;
-    }
-    .pastaking-section-content-top{
-        margin-top: 50px;
-    }
-    .side-menu-links-link{
-        font-size:20px;
-    }
-    .blog-start{
-        margin-top: 40px;
-    }
-    .blog-items-posts-post-title{
-        font-size: 20px;
-    }
-    .blog-items-posts-post-btn{
-            padding: 5px 20px;
-    }
-    .blog-items-posts-post-text{
-        margin-top: 10px;
-    }
-    .blog-items-posts-post{
-        margin-bottom: 40px;
-    }
-    .blog-items{
-        margin-top: 20px;
-    }
-    .ferra-about-ceo-container{
-      flex-direction: column-reverse;
-    }
-    .ferra-about-ceo-container-right{
-      width: 100%;
-      padding:  0 20px;
-    }
-    .ferra-about-ceo-container-left{
-      width: 100%;
-      padding-left: 20px;
-      padding-right: 20px;
-      margin-top: 40px;
-      align-items: center;
-    }
-    .ferra-about-shortinfo{
-      margin-top: 40px;
-    }
-    .ferra-about-shortinfo-content{
-      bottom: 10px;
-    }
-    .ferra-about-shortinfo-content-text{
-      font-size: 14px;
-    }
-    .ferra-about-shortinfo-content-title{
-      font-size: 32px;
-    }
-    .ferra-about-shortinfo-content-subtitle span{
-      font-size: 20px;
-    }
-    .ferra-about-vizioni-right-title{
-      font-size: 32px;
-    }
-    .ferra-about-tech-right-title {
-      font-size: 32px;
-    }
-    .ferra-about-partneret-title {
-      font-size: 32px;
-    }
-    .ferra-about-ekipi-title {
-      font-size: 32px;
-    }
-    .ferra-about-ekipi-slider-item-title {
-          font-size: 18px;
-    }
-    .ferra-about-ekipi-slider-item-subtitle{
-      font-size: 14px;
-    }
-}
-
-@media  (max-width: 500px){ 
-    .ferra-ferma-left img {
-        max-width: 100%;
-        width: 100%;
-        height: auto;
-    }
-    .ferra-ferma-right-ilustration{
-        flex-direction: column;
-    }
-    .ferra-ferma-right-ilustration p{
-        margin-bottom: 20px;
-        font-size: 16px;
-    }
-    .ferra-ferma-right-ilustration p br {
-        display: none;
-    }
-    .ferra-ferma-right-ilustration p svg {
-        width: 40px;
-        height: 40px;
-        margin-right: 10px;
-    }
-    .ferra-ferma-right-link{
-        font-size: 16px;
-        padding: 5px 20px;
-    }
-    .ferra-bashkepuno-content-right-form{
-        width: 100%;
-    }
-
-    .ferra-bashkepuno-content-right-form-emri{
-        width: 100%;
-    }
-    .ferra-bashkepuno-content-right-form-emri div:first-child input{
-        margin-right: 5px;
-    }
-    .ferra-bashkepuno-content-right-form-emri{
-        flex-direction: column;
-    }
-    .ferra-bashkepuno-content-right-form-emri div{
-        width: 100%;
-    }
-    .ferra-bashkepuno-content-right-form-emri input{
-        width: 100%;
-    }
-    .ferra-construction-content-left-subtitle{
-        font-size: 16px;
-    }
-
-    .ferra-construction-content-left-link{
-        font-size: 16px;
-        padding: 5px 20px;
-    }
-    .home-video-texts-title{
-        font-size: 18px;
-    }
-    .home-video-texts-slogan{
-        font-size: 14px;
-    }
-    .play-btn{
-        width: 32px;
-        height: 32px;
-        margin-top: 10px;
-    }
-    .play-btn::after{
-        width: 52px;
-        height: 52px;
-    }
-    .play-btn svg {
-        width: 15px;
-        height: 15px;
-    }
-    .orizking-section-content-bottom-item-title{
-        font-size: 14px;
-    }
-    .orizking-section-content-top-modal{
-        padding: 10px;
-        width: 100%;
-    }
-    .ferra-blog-title{
-            font-size: 24px;
-    }
-    .ferra-blog-subtitle{
-        font-size: 16px;
-    }
-    .ferra-info-phone a{
-        font-size: 12px;
-    }
-    .ferra-info-phone svg{
-        width: 10px;
-        height: 10px;
-    }
-    .ferra-info-mail a{
-        font-size: 12px;
-    }
-    .ferra-info-mail svg{
-        width: 15px;
-        height: 15px;
-
-    }
-    .ferra-bashkepuno-content-right{
-        padding: 0 20px;
-    }
-    .ferra-foto-seksion-title{
-        font-size: 24px;
-    }
-    .ferra-construction-content-left-title{
-        font-size: 24px;
-    }
-    .ferra-construction-content-left{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .submit-btn{
-        font-size: 14px;
-    }
-    .side-menu-links-link{
-        font-size: 16px;
-    }
-    .side-menu-socials{
-        margin-top: 100px;
-    }
-    .side-menu-socials a svg{
-            height: 30px;
-            width: 30px;
-    }
-.side-menu{
+  .ferra-construction-content-left-link {
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+  .home-video-texts-title {
+    font-size: 18px;
+  }
+  .home-video-texts-slogan {
+    font-size: 14px;
+  }
+  .play-btn {
+    width: 32px;
+    height: 32px;
+    margin-top: 10px;
+  }
+  .play-btn::after {
+    width: 52px;
+    height: 52px;
+  }
+  .play-btn svg {
+    width: 15px;
+    height: 15px;
+  }
+  .orizking-section-content-bottom-item-title {
+    font-size: 14px;
+  }
+  .orizking-section-content-top-modal {
+    padding: 10px;
+    width: 100%;
+  }
+  .ferra-blog-title {
+    font-size: 24px;
+  }
+  .ferra-blog-subtitle {
+    font-size: 16px;
+  }
+  .ferra-info-phone a {
+    font-size: 12px;
+  }
+  .ferra-info-phone svg {
+    width: 10px;
+    height: 10px;
+  }
+  .ferra-info-mail a {
+    font-size: 12px;
+  }
+  .ferra-info-mail svg {
+    width: 15px;
+    height: 15px;
+  }
+  .ferra-bashkepuno-content-right {
+    padding: 0 20px;
+  }
+  .ferra-foto-seksion-title {
+    font-size: 24px;
+  }
+  .ferra-construction-content-left-title {
+    font-size: 24px;
+  }
+  .ferra-construction-content-left {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .submit-btn {
+    font-size: 14px;
+  }
+  .side-menu-links-link {
+    font-size: 16px;
+  }
+  .side-menu-socials {
+    margin-top: 100px;
+  }
+  .side-menu-socials a svg {
+    height: 30px;
+    width: 30px;
+  }
+  .side-menu {
     width: 70%;
-}
-.close-side-menu{
+  }
+  .close-side-menu {
     width: 30px;
     height: 30px;
-}
-.blog-start-title{
+  }
+  .blog-start-title {
     font-size: 20px;
     bottom: 5px;
-}
-.ferra-about-shortinfo-content-title{
-  font-size: 20px;
-}
-.ferra-about-shortinfo-content-text{
-  font-size: 10px;
-}
-.ferra-about-shortinfo-content-subtitle{
-  font-size: 12px;
-}
-.ferra-about-shortinfo-content-subtitle span{
-  font-size: 12px;
-}
-.ferra-about-shortinfo{
-  margin-top: 80px;
-}
+  }
+  .ferra-about-shortinfo-content-title {
+    font-size: 20px;
+  }
+  .ferra-about-shortinfo-content-text {
+    font-size: 10px;
+  }
+  .ferra-about-shortinfo-content-subtitle {
+    font-size: 12px;
+  }
+  .ferra-about-shortinfo-content-subtitle span {
+    font-size: 12px;
+  }
+  .ferra-about-shortinfo {
+    margin-top: 80px;
+  }
+  .consctruction-projekt-right-info{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .consctruction-projekt-right-info p {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .consctruction-projekt-right-info p svg {
+    margin-right: 20px;
+  }
+  .consctruction-start{
+    margin-top: 80px;
+  }
+  .consctruction-start-content-subtitle{
+    font-size: 16px;
+  }
+  .consctruction-start-content-title{
+    font-size: 18px;
+  }
+  .consctruction-donbosko-container-left-info{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .consctruction-donbosko-container-left-info p {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .consctruction-donbosko-container-left-info p svg {
+    margin-right: 20px;
+  }
 }

@@ -1850,6 +1850,47 @@ html {
     .pastaking-section-content-bottom-pasta-item{
         margin:  0 0  10px;
     }
+
+    .ferra-about-vizioni-right{
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+    .ferra-about-ceo{
+      margin-bottom: 0px;
+    }
+
+    .ferra-about-ceo-container-right{
+      padding-right: 50px;
+    }
+    .ferra-about-ceo-container-right-content{
+      position: unset;
+    }
+    .ferra-about-ceo-container-left{
+      padding-right: 50px;
+      padding-left: 50px;
+      justify-content: center;
+    }
+    .ferra-about-tech{
+      margin-top: 20px;
+    }
+    .ferra-about-tech-right{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .ferra-about-partneret-sliders{
+      padding: 0 20px;
+    }
+    .ferra-about-ekipi-slider{
+      padding: 0 20px;
+    }
+    .ferra-about-ekipi-slider-item:nth-child(2){
+      margin-left: 15px;
+      margin-right: 10px;
+    }
+    .ferra-about-ekipi-slider-item:nth-child(3){
+      margin-left: 10px;
+      margin-right: 15px;
+    }
 }
 @media (max-width: 1400px) {
         /*Start Ferra Kreu */
@@ -1951,6 +1992,29 @@ html {
 
     }
         /*End Ferra Kreu */
+
+        .ferra-about-tech{
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+
+        .ferra-about-tech-container{
+          flex-direction: column-reverse;
+        }
+        .ferra-about-tech-left{
+          width: 100%;
+          margin-top: 40px;
+          justify-content: center;
+        }
+        .ferra-about-tech-left img {
+          margin: 0 50px;
+        }
+        .ferra-about-tech-right{
+          width: 100%;
+          padding-right: 20px;
+          padding-left: 20px;
+        }
 }
 
 
@@ -2119,6 +2183,15 @@ html {
     .header-nav a{
         font-size: 16px;
     }
+    .ferra-about-shortinfo{
+      align-items: flex-end;
+    }
+    .ferra-about-shortinfo-content{
+      margin-bottom: 50px;
+    }
+    .ferra-about-vizioni-right-title{
+      font-size: 24px;
+    }
 }
 
 @media  (max-width: 999px){
@@ -2206,10 +2279,11 @@ html {
     display: none;
 }
 .ferra-teknlogji{
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .ferra-teknlogji-left{
     width: 100%;
+    margin-top: 20px;
 }
 .ferra-teknlogji-right{
     width: 100%;
@@ -2306,6 +2380,32 @@ html {
 .blog-start-title{
     bottom: 10px;
     font-size: 30px;
+}
+
+.ferra-about-vizioni{
+  flex-direction: column-reverse;
+}
+.ferra-about-vizioni-right{
+  width: 100%;
+  padding: 0 20px;
+}
+.ferra-about-vizioni-left{
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 40px;
+}
+.ferra-about-tech-left{
+  padding: 0 50px;
+  margin-bottom: -200px;
+}
+.ferra-about-tech-left img{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin : 0 10px;
+}
+.ferra-about-tech-left div{
+  margin: 0 10px;
 }
 
 }
@@ -2437,6 +2537,53 @@ html {
     }
     .blog-items{
         margin-top: 20px;
+    }
+    .ferra-about-ceo-container{
+      flex-direction: column-reverse;
+    }
+    .ferra-about-ceo-container-right{
+      width: 100%;
+      padding:  0 20px;
+    }
+    .ferra-about-ceo-container-left{
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: 40px;
+      align-items: center;
+    }
+    .ferra-about-shortinfo{
+      margin-top: 40px;
+    }
+    .ferra-about-shortinfo-content{
+      bottom: 10px;
+    }
+    .ferra-about-shortinfo-content-text{
+      font-size: 14px;
+    }
+    .ferra-about-shortinfo-content-title{
+      font-size: 32px;
+    }
+    .ferra-about-shortinfo-content-subtitle span{
+      font-size: 20px;
+    }
+    .ferra-about-vizioni-right-title{
+      font-size: 32px;
+    }
+    .ferra-about-tech-right-title {
+      font-size: 32px;
+    }
+    .ferra-about-partneret-title {
+      font-size: 32px;
+    }
+    .ferra-about-ekipi-title {
+      font-size: 32px;
+    }
+    .ferra-about-ekipi-slider-item-title {
+          font-size: 18px;
+    }
+    .ferra-about-ekipi-slider-item-subtitle{
+      font-size: 14px;
     }
 }
 
@@ -2575,5 +2722,20 @@ html {
 .blog-start-title{
     font-size: 20px;
     bottom: 5px;
+}
+.ferra-about-shortinfo-content-title{
+  font-size: 20px;
+}
+.ferra-about-shortinfo-content-text{
+  font-size: 10px;
+}
+.ferra-about-shortinfo-content-subtitle{
+  font-size: 12px;
+}
+.ferra-about-shortinfo-content-subtitle span{
+  font-size: 12px;
+}
+.ferra-about-shortinfo{
+  margin-top: 80px;
 }
 }

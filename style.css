@@ -2102,6 +2102,9 @@ html {
   .food-pastaking-container {
     padding: 120px 0 20px;
   }
+  .kontakt-form-info {
+    padding: 0 20px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -2696,6 +2699,14 @@ html {
     display: unset;
     margin: 20px 0;
   }
+  .kontakt-info-content {
+    width: 100%;
+  }
+
+  .kontakt-start-title {
+    bottom: 20px;
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -2928,6 +2939,58 @@ html {
   .footer-content-item {
     margin: 30px 0;
   }
+  .kontakt-info-content {
+    padding-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 10px;
+  }
+  .kontakt-form-content-all {
+    padding: 0;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-right: -10px;
+  }
+  .kontakt-form-content-all-title {
+    font-size: 16px;
+  }
+  .info-pixels {
+    width: 100px;
+    height: 90px;
+  }
+  .info-square {
+    height: 40px;
+    width: 40px;
+    top: -10px;
+    left: -10px;
+  }
+  .kontakt-info-content-title {
+    font-size: 15px;
+  }
+  .kontakt-info-content-adresa-title {
+    font-size: 18px;
+  }
+  .kontakt-info-content-phone-title {
+    font-size: 18px;
+  }
+  .kontakt-info-content-email-title {
+    font-size: 18px;
+  }
+  .kontakt-info-content-adresa-1 {
+    font-size: 14px;
+  }
+  .kontakt-info-content-phone-1 {
+    font-size: 14px;
+  }
+  .kontakt-info-content-email-1 {
+    font-size: 14px;
+  }
+  .kontakt-submit-btn {
+    font-size: 12px;
+    padding: 10px 25px;
+  }
+  .kontakt-start {
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -3127,5 +3190,35 @@ html {
   }
   .food-gluten-container-bottom {
     flex-direction: column;
+  }
+  .kontakt-form-info {
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  .kontakt-form-content {
+    width: 100%;
+  }
+  .kontakt-info {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+  .kontakt-form-content-all {
+    margin-right: 0;
+    padding: 20px 10px;
+  }
+  .info-square {
+    top: 10px;
+    left: 10px;
+  }
+  .kontakt-info-content-title {
+    margin-top: 60px;
+  }
+  .kontakt-start {
+    margin-top: 80px;
+  }
+  .kontakt-start-title {
+    font-size: 20px;
+    bottom: 10px;
   }
 }

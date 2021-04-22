@@ -317,6 +317,9 @@ html {
   padding: 9.5px 36.7px;
   text-transform: uppercase;
 }
+.ferra-teknlogji-right-img {
+  display: none;
+}
 /* End of Ferra Teknologji */
 
 /* Start of Ferra Foto Seksion */
@@ -2081,6 +2084,24 @@ html {
   .food-orizking-content-center {
     padding: 20px 20px 200px 20px;
   }
+  .food-sheqeri {
+    margin-top: 50px;
+  }
+  .ferra-bashkepuno-content-left-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .food-pastaking-right img {
+    position: unset;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  .food-pastaking-container {
+    padding: 120px 0 20px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -2295,12 +2316,7 @@ html {
   .food-pastaking {
     margin-top: 50px;
   }
-  .food-pastaking-right img {
-    position: unset;
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-  }
+
   .food-pastaking-container {
     padding: 100px 0 100px;
   }
@@ -2465,8 +2481,7 @@ html {
     flex-direction: column-reverse;
   }
   .ferra-teknlogji-left {
-    width: 100%;
-    margin-top: 20px;
+    display: none;
   }
   .ferra-teknlogji-right {
     width: 100%;
@@ -2483,15 +2498,14 @@ html {
     background-color: #202020;
   }
   .footer-content {
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 0;
+    flex-wrap: wrap;
   }
+
   .footer-content-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px 0;
+    margin: 30px 60px;
   }
   .home-video {
     align-items: flex-end;
@@ -2606,8 +2620,12 @@ html {
   .food-pastaking-right img {
     max-width: 50%;
   }
+  .food-gluten {
+    padding-top: 20px;
+  }
   .food-gluten-container-bottom {
-    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
   }
   .food-gluten-container-bottom-item-text {
     margin-top: 20px;
@@ -2671,8 +2689,12 @@ html {
   .food-meillking-container-right-title {
     font-size: 30px;
   }
-  .food-thjerreza-left-text{
+  .food-thjerreza-left-text {
     padding-right: 20px;
+  }
+  .ferra-teknlogji-right-img {
+    display: unset;
+    margin: 20px 0;
   }
 }
 
@@ -2892,8 +2914,19 @@ html {
   .consctruction-start {
     margin-top: 40px;
   }
-  .food-pastaking-right img{
+  .food-pastaking-right img {
     max-width: 60%;
+  }
+  .food-start {
+    margin-top: 40px;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+  }
+  .footer-content-item {
+    margin: 30px 0;
   }
 }
 
@@ -3089,7 +3122,10 @@ html {
   .food-orizking-content-left-title {
     font-size: 20px;
   }
-  .food-pastaking-right img{
+  .food-pastaking-right img {
     max-width: 100%;
+  }
+  .food-gluten-container-bottom {
+    flex-direction: column;
   }
 }

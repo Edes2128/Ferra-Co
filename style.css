@@ -2202,7 +2202,7 @@ html {
   }
   .ferra-ferma {
     flex-direction: column-reverse;
-    padding: 0 40px;
+    padding: 0px;
   }
 
 
@@ -2766,13 +2766,13 @@ html {
     padding: 0 20px;
   }
   .ferra-ferma-left{
-    justify-content: flex-start;
+    justify-content: flex-end;
     padding: 0 10px;
   }
   .ferma2-foto{
     position: absolute;
     bottom: 0;
-    left: 40%;
+  left: 0;
   }
 }
 
